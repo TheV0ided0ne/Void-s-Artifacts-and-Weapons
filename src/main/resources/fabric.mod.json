@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "vaaw",
+  "version": "${version}",
+  "name": "Void's Artifacts and Weapons",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vaaw/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.modid.vaaw.client.VaawDataGenerator"
+    ],
+    "client": [
+      "com.modid.vaaw.client.VaawClient"
+    ],
+    "main": [
+      "com.modid.vaaw.Vaaw"
+    ]
+  },
+  "mixins": [
+    "vaaw.mixins.json",
+    {
+      "config": "vaaw.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "aether": "*",
+    "bosses-of-mass-destruction": "*",
+    "levelz": "*"
+  }
+}
