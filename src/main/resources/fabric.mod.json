@@ -32,7 +32,10 @@
     "fabric": "*",
     "minecraft": "${minecraft_version}",
     "aether": "*",
-    "bosses-of-mass-destruction": "*",
-    "levelz": "*"
+    "bosses_of_mass_destruction": "*",
+    "levelz": "*",
+    "tclayer": "*",
+    "accessories": "*",
+    "trinkets": "*"
   }
 }
