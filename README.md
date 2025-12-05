@@ -5,3 +5,4 @@ A mod based upon a show in the making called 'Into The Multiverse' that will con
 OfficialVoidVA / TheV0ided0ne - Creator/Coder/Artist |
 Mako / MakoTheGxd - Artist |
 Florian / FlorianDH - Inspiration/Idea Maker |
+Nuxlox / Nuxl0x - Coder |
