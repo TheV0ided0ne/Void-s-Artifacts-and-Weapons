@@ -1,4 +1,4 @@
-package com.modid.vaaw.mixin;
+package vee.vaaw.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

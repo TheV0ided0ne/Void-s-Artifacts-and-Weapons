@@ -1,4 +1,4 @@
-package com.modid.vaaw;
+package vee.vaaw;
 
 import net.fabricmc.api.ClientModInitializer;
 

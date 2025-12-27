@@ -1,6 +1,6 @@
-package com.modid.vaaw;
+package vee.vaaw;
 
-import com.modid.vaaw.util.ItemHelper;
+import vee.vaaw.util.ItemHelper;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
