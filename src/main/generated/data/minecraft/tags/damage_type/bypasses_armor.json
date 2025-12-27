@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "vaaw:void_touched",
+      "required": false
+    }
+  ]
+}

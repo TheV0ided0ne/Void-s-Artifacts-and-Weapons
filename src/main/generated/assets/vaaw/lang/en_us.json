@@ -1,4 +1,7 @@
 {
+  "death.attack.void_touched": "%1$s failed to manifest the void",
+  "death.attack.void_touched.player": "%1$s failed to manifest the void while fighting %2$s",
+  "effect.vaaw.void_touched": "Void Touched",
   "item.vaaw.commas_item": "Comma's Item",
   "item.vaaw.example_item": "Example Item",
   "itemGroup.vaaw": "Void's Artifacts and Weapons"

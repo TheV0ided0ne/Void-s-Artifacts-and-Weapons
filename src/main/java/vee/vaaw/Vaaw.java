@@ -1,5 +1,6 @@
 package vee.vaaw;
 
+import vee.vaaw.util.EffectHelper;
 import vee.vaaw.util.ItemHelper;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Vaaw implements ModInitializer {
         LOGGER.info("Initialising Void's Artifacts and Weapons.");
         ItemHelper.initializeItems();
         ItemHelper.initializeItemGroups();
+        EffectHelper.INSTANCE.intialiseEffects();
     }
 }
