@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.modid.vaaw.mixin",
+  "package": "vee.vaaw.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ExampleMixin"

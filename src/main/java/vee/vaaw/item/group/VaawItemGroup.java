@@ -1,7 +1,8 @@
-package com.modid.vaaw.item.group;
+package vee.vaaw.item.group;
 
-import com.modid.vaaw.Vaaw;
-import com.modid.vaaw.item.ExampleItems;
+import vee.vaaw.Vaaw;
+import vee.vaaw.item.DevItems;
+import vee.vaaw.item.ExampleItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
@@ -33,6 +34,7 @@ public class VaawItemGroup {
         ItemGroupEvents.modifyEntriesEvent(VAAW_ITEM_GROUP_KEY).register(itemGroup -> {
 
             itemGroup.add(ExampleItems.EXAMPLE_ITEM);
+            itemGroup.add(DevItems.INSTANCE.getCOMMAS_ITEM());
 
         });
     }

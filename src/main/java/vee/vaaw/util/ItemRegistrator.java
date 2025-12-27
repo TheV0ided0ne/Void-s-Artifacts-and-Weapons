@@ -1,6 +1,6 @@
-package com.modid.vaaw.util;
+package vee.vaaw.util;
 
-import com.modid.vaaw.Vaaw;
+import vee.vaaw.Vaaw;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

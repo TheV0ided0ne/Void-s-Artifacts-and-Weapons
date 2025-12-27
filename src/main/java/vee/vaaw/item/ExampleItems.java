@@ -1,6 +1,6 @@
-package com.modid.vaaw.item;
+package vee.vaaw.item;
 
-import com.modid.vaaw.util.ItemRegistrator;
+import vee.vaaw.util.ItemRegistrator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 
