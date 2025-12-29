@@ -1,9 +1,9 @@
 package vee.vaaw.effect
 
+import nuxlox.nuxon.effect.EffectRegistrator
 import vee.vaaw.effect.type.VoidTouchedEffect
-import vee.vaaw.util.EffectRegistrator
 
-object EffectNegative : EffectRegistrator() {
+object NegativeEffects : EffectRegistrator("vaaw") {
 
     val VOID_TOUCHED = register("void_touched", VoidTouchedEffect)
 

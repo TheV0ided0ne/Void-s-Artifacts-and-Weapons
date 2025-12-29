@@ -4,9 +4,9 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.minecraft.item.Item
 import nuxlox.nuxon.item.ItemRegistrator
 
-object DevItems : ItemRegistrator("vaaw") {
+object MiscItems : ItemRegistrator("vaaw") {
 
-    val COMMAS_ITEM: Item = register("commas_item", Item(FabricItemSettings()))
+    val VOID_THORNS = register("void_thorns", Item(FabricItemSettings()))
 
     fun registerItems() {}
 

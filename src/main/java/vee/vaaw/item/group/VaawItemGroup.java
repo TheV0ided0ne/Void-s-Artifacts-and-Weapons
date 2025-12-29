@@ -2,7 +2,6 @@ package vee.vaaw.item.group;
 
 import vee.vaaw.Vaaw;
 import vee.vaaw.item.DevItems;
-import vee.vaaw.item.ExampleItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
@@ -12,6 +11,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import vee.vaaw.item.IngotItems;
+import vee.vaaw.item.MiscItems;
+import vee.vaaw.item.WeaponItems;
 
 public class VaawItemGroup {
 
@@ -20,7 +22,7 @@ public class VaawItemGroup {
     );
 
     public static final ItemGroup VAAW_ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ExampleItems.EXAMPLE_ITEM))
+            .icon(() -> new ItemStack(DevItems.INSTANCE.getCOMMAS_ITEM()))
             .displayName(Text.translatable("itemGroup.vaaw"))
             .build();
 
@@ -33,8 +35,14 @@ public class VaawItemGroup {
     public static void addItemGroupItems() {
         ItemGroupEvents.modifyEntriesEvent(VAAW_ITEM_GROUP_KEY).register(itemGroup -> {
 
-            itemGroup.add(ExampleItems.EXAMPLE_ITEM);
             itemGroup.add(DevItems.INSTANCE.getCOMMAS_ITEM());
+            itemGroup.add(WeaponItems.INSTANCE.getVOID_SCYTHE());
+            itemGroup.add(IngotItems.INSTANCE.getVOID_STEEL_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getOSMIUM_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getOBLIVION_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getTUNGSTEN_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getIRIDIUM_INGOT());
+            itemGroup.add(MiscItems.INSTANCE.getVOID_THORNS());
 
         });
     }
