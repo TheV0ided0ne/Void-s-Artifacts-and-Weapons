@@ -1,0 +1,16 @@
+Greetings!
+Small information file on all the libraries that VAaW depends on.
+(LAST UPDATED: 29/12/2025)
+
+nuxon is my (nuxlox's) personal dependency library. It currently contains 4 utilities, and will be furthered when I need more methods.
+Here is how to use it:
+
+ItemRegistrator: Best practice is to make an object extend this class, giving it access to the register method.
+This method can be used in order to register new items.
+
+EffectRegistrator: Same story as ItemRegistrator. It is recommended to extend this class and then call the register method.
+
+EffectHelper: Contains the method `createDamageSource`, which will turn a DamageType into a DamageSource.
+
+PowerHandler: API for interacting with ThreeTAG's Palladium mod.
+

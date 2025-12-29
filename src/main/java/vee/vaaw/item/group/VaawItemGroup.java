@@ -11,6 +11,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import vee.vaaw.item.IngotItems;
+import vee.vaaw.item.MiscItems;
+import vee.vaaw.item.WeaponItems;
 
 public class VaawItemGroup {
 
@@ -33,6 +36,13 @@ public class VaawItemGroup {
         ItemGroupEvents.modifyEntriesEvent(VAAW_ITEM_GROUP_KEY).register(itemGroup -> {
 
             itemGroup.add(DevItems.INSTANCE.getCOMMAS_ITEM());
+            itemGroup.add(WeaponItems.INSTANCE.getVOID_SCYTHE());
+            itemGroup.add(IngotItems.INSTANCE.getVOID_STEEL_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getOSMIUM_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getOBLIVION_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getTUNGSTEN_INGOT());
+            itemGroup.add(IngotItems.INSTANCE.getIRIDIUM_INGOT());
+            itemGroup.add(MiscItems.INSTANCE.getVOID_THORNS());
 
         });
     }

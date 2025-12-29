@@ -1,11 +1,11 @@
 package vee.vaaw.util
 
-import vee.vaaw.effect.EffectNegative
+import vee.vaaw.effect.NegativeEffects
 
 object EffectHelper {
 
     fun intialiseEffects() {
-        EffectNegative.registerEffects()
+        NegativeEffects.registerEffects()
     }
 
 }

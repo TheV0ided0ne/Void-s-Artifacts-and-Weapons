@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator
 import vee.vaaw.datagen.DamageTypeProvider
 import vee.vaaw.datagen.DamageTypeTagProvider
 import vee.vaaw.datagen.EnglishLanguageProvider
+import vee.vaaw.datagen.ItemModelProvider
 
 object VaawDataGenerator : DataGeneratorEntrypoint {
 
@@ -14,12 +15,12 @@ object VaawDataGenerator : DataGeneratorEntrypoint {
 
         pack.addProvider(::EnglishLanguageProvider)
 
-        pack.addProvider { output, registriesFuture ->
-            DamageTypeProvider(output, registriesFuture)
-        }
-        pack.addProvider { output, registriesFuture ->
-            DamageTypeTagProvider(output, registriesFuture)
-        }
+        pack.addProvider(::DamageTypeProvider)
+
+        pack.addProvider(::DamageTypeTagProvider)
+
+        pack.addProvider(::ItemModelProvider)
+
     }
 
 }

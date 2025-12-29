@@ -3,6 +3,12 @@
   "death.attack.void_touched.player": "%1$s failed to manifest the void while fighting %2$s",
   "effect.vaaw.void_touched": "Void Touched",
   "item.vaaw.commas_item": "Comma's Item",
-  "item.vaaw.example_item": "Example Item",
+  "item.vaaw.iridium_ingot": "Iridium Ingot",
+  "item.vaaw.oblivion_ingot": "Oblivion Ingot",
+  "item.vaaw.osmium_ingot": "Osmium Ingot",
+  "item.vaaw.scythe_of_the_void": "Scythe Of The Void",
+  "item.vaaw.tungsten_ingot": "Tungsten Ingot",
+  "item.vaaw.void_steel_ingot": "Void Steel Ingot",
+  "item.vaaw.void_thorns": "Void Thorns",
   "itemGroup.vaaw": "Void's Artifacts and Weapons"
 }
