@@ -2,7 +2,6 @@ package vee.vaaw.item.group;
 
 import vee.vaaw.Vaaw;
 import vee.vaaw.item.DevItems;
-import vee.vaaw.item.ExampleItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroup;
@@ -20,7 +19,7 @@ public class VaawItemGroup {
     );
 
     public static final ItemGroup VAAW_ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ExampleItems.EXAMPLE_ITEM))
+            .icon(() -> new ItemStack(DevItems.INSTANCE.getCOMMAS_ITEM()))
             .displayName(Text.translatable("itemGroup.vaaw"))
             .build();
 
@@ -33,7 +32,6 @@ public class VaawItemGroup {
     public static void addItemGroupItems() {
         ItemGroupEvents.modifyEntriesEvent(VAAW_ITEM_GROUP_KEY).register(itemGroup -> {
 
-            itemGroup.add(ExampleItems.EXAMPLE_ITEM);
             itemGroup.add(DevItems.INSTANCE.getCOMMAS_ITEM());
 
         });

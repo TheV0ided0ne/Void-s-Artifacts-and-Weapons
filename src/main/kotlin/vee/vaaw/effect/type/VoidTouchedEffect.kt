@@ -3,7 +3,7 @@ package vee.vaaw.effect.type
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectCategory
-import vee.vaaw.util.DamageHelper
+import nuxlox.nuxon.damage.DamageHelper
 
 object VoidTouchedEffect : StatusEffect(
     StatusEffectCategory.HARMFUL,
@@ -12,7 +12,7 @@ object VoidTouchedEffect : StatusEffect(
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int) {
         if (entity.world.isClient) return
 
-        val voidTouchedSource = DamageHelper.createDamageSource(entity, "void_touched")
+        val voidTouchedSource = DamageHelper.createDamageSource(entity, "vaaw", "void_touched")
 
         entity.damage(voidTouchedSource, 2.0F)
     }
