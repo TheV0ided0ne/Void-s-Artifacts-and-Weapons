@@ -8,7 +8,7 @@ import vee.vaaw.item.type.VoidScytheItem
 object WeaponItems : ItemRegistrator("vaaw") {
 
     val VOID_SCYTHE = register("scythe_of_the_void", VoidScytheItem(WeaponMaterials.VOID_STEEL,
-        9, 0f, FabricItemSettings()))
+        9, -3f, FabricItemSettings()))
 
     fun registerItems() {}
 
