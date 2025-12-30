@@ -6,8 +6,7 @@ import vee.vaaw.datagen.DamageTypeProvider
 import vee.vaaw.datagen.DamageTypeTagProvider
 import vee.vaaw.datagen.EnglishLanguageProvider
 import vee.vaaw.datagen.ItemModelProvider
-import vee.vaaw.datagen.recipe.IngotRecipeProvider
-import vee.vaaw.datagen.recipe.MaterialRecipeProvider
+import vee.vaaw.datagen.RecipeProvider
 
 object VaawDataGenerator : DataGeneratorEntrypoint {
 
@@ -19,7 +18,7 @@ object VaawDataGenerator : DataGeneratorEntrypoint {
         pack.addProvider(::DamageTypeProvider)
         pack.addProvider(::DamageTypeTagProvider)
         pack.addProvider(::ItemModelProvider)
-        pack.addProvider(::MaterialRecipeProvider)
+        pack.addProvider(::RecipeProvider)
 
     }
 

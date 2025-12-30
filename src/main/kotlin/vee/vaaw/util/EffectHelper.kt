@@ -1,10 +1,12 @@
 package vee.vaaw.util
 
 import vee.vaaw.effect.NegativeEffects
+import vee.vaaw.effect.PositiveEffects
 
 object EffectHelper {
 
-    fun intialiseEffects() {
+    fun initializeEffects() {
+        PositiveEffects.registerEffects()
         NegativeEffects.registerEffects()
     }
 

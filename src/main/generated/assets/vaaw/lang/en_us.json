@@ -1,7 +1,9 @@
 {
   "death.attack.void_touched": "%1$s failed to manifest the void",
   "death.attack.void_touched.player": "%1$s failed to manifest the void while fighting %2$s",
+  "effect.vaaw.angelic_injection": "Angelic Injection",
   "effect.vaaw.void_touched": "Void Touched",
+  "item.vaaw.angelic_syringe": "Angelic Syringe",
   "item.vaaw.commas_item": "Comma's Item",
   "item.vaaw.iridium_ingot": "Iridium Ingot",
   "item.vaaw.oblivion_ingot": "Oblivion Ingot",
@@ -12,5 +14,9 @@
   "item.vaaw.void_crystal": "Void Crystal",
   "item.vaaw.void_steel_ingot": "Void Steel Ingot",
   "item.vaaw.void_thorn": "Void Thorn",
-  "itemGroup.vaaw": "Void's Artifacts and Weapons"
+  "itemGroup.vaaw_armour": "VAAW Armour",
+  "itemGroup.vaaw_consumables": "VAAW Consumables",
+  "itemGroup.vaaw_materials": "VAAW Materials",
+  "itemGroup.vaaw_misc": "VAAW Miscellaneous",
+  "itemGroup.vaaw_weapons": "VAAW Weapons"
 }
