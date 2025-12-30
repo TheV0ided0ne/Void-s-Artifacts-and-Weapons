@@ -1,10 +1,13 @@
 package vee.vaaw.item.type
 
+import net.minecraft.client.item.TooltipContext
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.item.ItemStack
 import net.minecraft.item.SwordItem
 import net.minecraft.item.ToolMaterial
+import net.minecraft.text.Text
+import net.minecraft.world.World
 import vee.vaaw.effect.NegativeEffects
 
 class VoidScytheItem(
@@ -25,6 +28,17 @@ class VoidScytheItem(
         ))
 
         return super.postHit(stack, target, attacker)
+    }
+
+    override fun appendTooltip(
+        stack: ItemStack,
+        world: World?,
+        tooltip: MutableList<Text>,
+        context: TooltipContext
+    ) {
+        tooltip.add(Text.translatable("item.vaaw.scythe_of_the_void.lore_1"))
+        tooltip.add(Text.translatable("item.vaaw.scythe_of_the_void.lore_2"))
+        super.appendTooltip(stack, world, tooltip, context)
     }
 
 }
