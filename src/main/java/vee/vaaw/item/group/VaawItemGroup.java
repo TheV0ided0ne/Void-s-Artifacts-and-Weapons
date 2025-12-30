@@ -43,6 +43,7 @@ public class VaawItemGroup {
             itemGroup.add(IngotItems.INSTANCE.getOBLIVION_INGOT());
             itemGroup.add(IngotItems.INSTANCE.getTUNGSTEN_INGOT());
             itemGroup.add(IngotItems.INSTANCE.getIRIDIUM_INGOT());
+            itemGroup.add(MaterialItems.INSTANCE.getVOID_CRYSTAL());
             itemGroup.add(MaterialItems.INSTANCE.getVOID_THORN());
 
         });
