@@ -6,9 +6,12 @@
   "item.vaaw.iridium_ingot": "Iridium Ingot",
   "item.vaaw.oblivion_ingot": "Oblivion Ingot",
   "item.vaaw.osmium_ingot": "Osmium Ingot",
+  "item.vaaw.reinforced_stick": "Reinforced Stick",
   "item.vaaw.scythe_of_the_void": "Scythe Of The Void",
   "item.vaaw.tungsten_ingot": "Tungsten Ingot",
+  "item.vaaw.void_crystal": "Void Crystal",
   "item.vaaw.void_steel_ingot": "Void Steel Ingot",
+  "item.vaaw.void_thorn": "Void Thorn",
   "item.vaaw.void_thorns": "Void Thorns",
   "itemGroup.vaaw": "Void's Artifacts and Weapons"
 }
