@@ -2,5 +2,6 @@
   "replace": false,
   "skill": "strength",
   "level": 20,
-  "item": "vaaw:scythe_of_the_void"
+  "item": "minecraft:custom_item",
+  "object": "vaaw:scythe_of_the_void"
 }
