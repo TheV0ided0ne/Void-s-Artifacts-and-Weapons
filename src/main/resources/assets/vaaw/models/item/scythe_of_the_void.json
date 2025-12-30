@@ -1,11 +1,11 @@
 {
 	"format_version": "1.9.0",
-	"credit": "Made with Blockbench",
+	"credit": "Made with Blockbench from OfficialVoidVA",
 	"parent": "minecraft:netherite_sword",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "vaaw:item/handle",
-		"particle": "vaaw:item/handle"
+		"0": "vaaw:item/scytheofthevoid/handle",
+		"particle": "vaaw:item/scytheofthevoid/handle"
 	},
 	"elements": [
 		{

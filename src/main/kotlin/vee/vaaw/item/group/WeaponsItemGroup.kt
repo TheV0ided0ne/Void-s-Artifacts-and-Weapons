@@ -10,7 +10,6 @@ import net.minecraft.registry.RegistryKey
 import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import vee.vaaw.Vaaw
-import vee.vaaw.item.IngotItems
 import vee.vaaw.item.WeaponItems
 
 object WeaponsItemGroup {
@@ -19,7 +18,7 @@ object WeaponsItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_weapons"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(IngotItems.VOID_STEEL_INGOT) }
+        .icon { ItemStack(WeaponItems.VOID_SCYTHE) }
         .displayName(Text.translatable("itemGroup.vaaw_weapons"))
         .build()
 

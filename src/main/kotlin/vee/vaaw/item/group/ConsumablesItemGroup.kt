@@ -11,7 +11,6 @@ import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import vee.vaaw.Vaaw
 import vee.vaaw.item.ConsumableItems
-import vee.vaaw.item.IngotItems
 
 object ConsumablesItemGroup {
 
@@ -19,7 +18,7 @@ object ConsumablesItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_consumables"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(IngotItems.VOID_STEEL_INGOT) }
+        .icon { ItemStack(ConsumableItems.ANGELIC_SYRINGE) }
         .displayName(Text.translatable("itemGroup.vaaw_consumables"))
         .build()
 
