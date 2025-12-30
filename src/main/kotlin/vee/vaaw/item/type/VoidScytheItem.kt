@@ -20,7 +20,7 @@ class VoidScytheItem(
 
         target.addStatusEffect(StatusEffectInstance(
             NegativeEffects.VOID_TOUCHED,
-            200,
+            100,
             0
         ))
 

@@ -1,9 +1,7 @@
 package vee.vaaw.util;
 
 import vee.vaaw.Vaaw;
-import vee.vaaw.item.DevItems;
-import vee.vaaw.item.MiscItems;
-import vee.vaaw.item.WeaponItems;
+import vee.vaaw.item.*;
 import vee.vaaw.item.group.VaawItemGroup;
 
 public class ItemHelper {
@@ -13,6 +11,8 @@ public class ItemHelper {
 
         DevItems.INSTANCE.registerItems();
         WeaponItems.INSTANCE.registerItems();
+        IngotItems.INSTANCE.registerItems();
+        MaterialItems.INSTANCE.registerItems();
         MiscItems.INSTANCE.registerItems();
 
     }

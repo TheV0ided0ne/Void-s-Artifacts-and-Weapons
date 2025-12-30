@@ -6,8 +6,6 @@ import nuxlox.nuxon.item.ItemRegistrator
 
 object MiscItems : ItemRegistrator("vaaw") {
 
-    val VOID_THORNS = register("void_thorns", Item(FabricItemSettings()))
-
     fun registerItems() {}
 
 }

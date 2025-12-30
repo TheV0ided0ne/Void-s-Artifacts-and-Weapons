@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CNC",
+    "ACA"
+  ],
+  "result": {
+    "item": "vaaw:void_crystal"
+  },
+  "show_notification": true
+}
