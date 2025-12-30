@@ -1,4 +1,4 @@
-package vee.vaaw.datagen.recipe
+package vee.vaaw.datagen
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider
@@ -8,11 +8,17 @@ import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder
 import net.minecraft.item.Items
 import net.minecraft.recipe.book.RecipeCategory
 import vee.vaaw.item.MaterialItems
+import vee.vaaw.item.WeaponItems
 import java.util.function.Consumer
 
-class MaterialRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
+class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
 
     override fun generate(consumer: Consumer<RecipeJsonProvider>) {
+        materialRecipes(consumer)
+        weaponRecipes(consumer)
+    }
+
+    fun materialRecipes(consumer: Consumer<RecipeJsonProvider>) {
 
         // Void Crystal
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, MaterialItems.VOID_CRYSTAL, 1)
@@ -38,7 +44,23 @@ class MaterialRecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(ou
         // Reinforced Stick
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, MaterialItems.REINFORCED_STICK, 1)
             .input(Items.NETHERITE_SCRAP, 2)
-            .input(Items.STICK).criterion(hasItem(Items.NETHERITE_SCRAP), conditionsFromItem(Items.NETHERITE_SCRAP))
+            .input(Items.STICK)
+            .criterion(hasItem(Items.NETHERITE_SCRAP), conditionsFromItem(Items.NETHERITE_SCRAP))
+            .offerTo(consumer)
+    }
+
+    fun weaponRecipes(consumer: Consumer<RecipeJsonProvider>) {
+
+        // Scythe Of The Void
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, WeaponItems.VOID_SCYTHE, 1)
+            .pattern("TCC")
+            .pattern("CS ")
+            .pattern(" S ")
+            .input('T', MaterialItems.VOID_THORN)
+            .input('C', MaterialItems.VOID_CRYSTAL)
+            .input('S', MaterialItems.REINFORCED_STICK)
+            .criterion(hasItem(MaterialItems.VOID_THORN), conditionsFromItem(MaterialItems.VOID_THORN))
+            .offerTo(consumer)
 
     }
 

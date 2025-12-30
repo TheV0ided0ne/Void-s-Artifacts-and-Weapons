@@ -5,8 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider
 import net.minecraft.data.client.BlockStateModelGenerator
 import net.minecraft.data.client.ItemModelGenerator
 import net.minecraft.data.client.Models
+import vee.vaaw.item.ConsumableItems
 import vee.vaaw.item.DevItems
 import vee.vaaw.item.IngotItems
+import vee.vaaw.item.MaterialItems
 
 class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) {
 
@@ -24,13 +26,40 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
 
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {
 
-        itemModelGenerator.register(IngotItems.VOID_STEEL_INGOT, Models.GENERATED)
-        itemModelGenerator.register(IngotItems.OSMIUM_INGOT, Models.GENERATED)
-        itemModelGenerator.register(IngotItems.IRIDIUM_INGOT, Models.GENERATED)
-        itemModelGenerator.register(IngotItems.OBLIVION_INGOT, Models.GENERATED)
-        itemModelGenerator.register(IngotItems.TUNGSTEN_INGOT, Models.GENERATED)
+        consumableItems(itemModelGenerator)
+        devItems(itemModelGenerator)
+        ingotItems(itemModelGenerator)
+        materialItems(itemModelGenerator)
 
-        itemModelGenerator.register(DevItems.COMMAS_ITEM, Models.GENERATED)
+    }
+
+    fun consumableItems(modelGen: ItemModelGenerator) {
+
+        modelGen.register(ConsumableItems.ANGELIC_SYRINGE, Models.GENERATED)
+
+    }
+
+    fun devItems(modelGen: ItemModelGenerator) {
+
+        modelGen.register(DevItems.COMMAS_ITEM, Models.GENERATED)
+
+    }
+
+    fun ingotItems(modelGen: ItemModelGenerator) {
+
+        modelGen.register(IngotItems.VOID_STEEL_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.OSMIUM_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.IRIDIUM_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.OBLIVION_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.TUNGSTEN_INGOT, Models.GENERATED)
+
+    }
+
+    fun materialItems(modelGen: ItemModelGenerator) {
+
+        modelGen.register(MaterialItems.VOID_CRYSTAL, Models.GENERATED)
+        modelGen.register(MaterialItems.VOID_THORN, Models.GENERATED)
+        modelGen.register(MaterialItems.REINFORCED_STICK, Models.GENERATED)
 
     }
 

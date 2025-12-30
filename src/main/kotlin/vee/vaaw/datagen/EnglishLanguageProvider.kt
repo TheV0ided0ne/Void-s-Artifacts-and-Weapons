@@ -37,10 +37,17 @@ class EnglishLanguageProvider(
     }
 
     // Here are all the functions for translation addition! Feel free to add more if needed.
-    fun tooltips(tBuilder: TranslationBuilder) {}
+    fun itemGroups(tBuilder: TranslationBuilder) {
+        tBuilder.add("itemGroup.vaaw_armour", "VAAW Armour")
+        tBuilder.add("itemGroup.vaaw_consumables", "VAAW Consumables")
+        tBuilder.add("itemGroup.vaaw_materials", "VAAW Materials")
+        tBuilder.add("itemGroup.vaaw_misc", "VAAW Miscellaneous")
+        tBuilder.add("itemGroup.vaaw_weapons", "VAAW Weapons")
+    }
 
     fun effects(tBuilder: TranslationBuilder) {
         tBuilder.add("effect.vaaw.void_touched", "Void Touched")
+        tBuilder.add("effect.vaaw.angelic_injection", "Angelic Injection")
     }
 
     fun messages(tBuilder: TranslationBuilder) {
@@ -48,9 +55,7 @@ class EnglishLanguageProvider(
         tBuilder.add("death.attack.void_touched.player", "%1\$s failed to manifest the void while fighting %2\$s")
     }
 
-    fun misc(tBuilder: TranslationBuilder) {
-        tBuilder.add("itemGroup.vaaw", "Void's Artifacts and Weapons")
-    }
+    fun misc(tBuilder: TranslationBuilder) {}
 
 
     // You can add anything miscellaneous here if you want, using the function is recommended.
@@ -65,7 +70,7 @@ class EnglishLanguageProvider(
         }
 
         // Runs all the other translation functions.
-        tooltips(tBuilder)
+        itemGroups(tBuilder)
         effects(tBuilder)
         messages(tBuilder)
         misc(tBuilder)

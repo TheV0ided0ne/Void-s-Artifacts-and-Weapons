@@ -23,12 +23,14 @@
     ],
     "client": [
       {
-        "value": "vee.vaaw.VaawClient"
+        "value": "vee.vaaw.VaawClient",
+        "adapter": "kotlin"
       }
     ],
     "main": [
       {
-        "value": "vee.vaaw.Vaaw"
+        "value": "vee.vaaw.Vaaw",
+        "adapter": "kotlin"
       }
     ]
   },

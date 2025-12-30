@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "T": {
-      "item": "vaaw:void_thorn"
-    },
     "C": {
       "item": "vaaw:void_crystal"
     },
-    "R": {
+    "S": {
       "item": "vaaw:reinforced_stick"
+    },
+    "T": {
+      "item": "vaaw:void_thorn"
     }
   },
   "pattern": [
     "TCC",
-    "CR ",
-    " R "
+    "CS ",
+    " S "
   ],
   "result": {
     "item": "vaaw:scythe_of_the_void"
