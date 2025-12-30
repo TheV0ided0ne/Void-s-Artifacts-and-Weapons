@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 import vee.vaaw.item.IngotItems;
 import vee.vaaw.item.MiscItems;
 import vee.vaaw.item.WeaponItems;
+import vee.vaaw.item.MaterialItems;
 
 public class VaawItemGroup {
 
@@ -42,7 +43,7 @@ public class VaawItemGroup {
             itemGroup.add(IngotItems.INSTANCE.getOBLIVION_INGOT());
             itemGroup.add(IngotItems.INSTANCE.getTUNGSTEN_INGOT());
             itemGroup.add(IngotItems.INSTANCE.getIRIDIUM_INGOT());
-            itemGroup.add(MiscItems.INSTANCE.getVOID_THORNS());
+            itemGroup.add(MaterialItems.INSTANCE.getVOID_THORN());
 
         });
     }
