@@ -36,8 +36,8 @@ class VoidScytheItem(
         tooltip: MutableList<Text>,
         context: TooltipContext
     ) {
-        tooltip.add(Text.translatable("item.vaaw.scythe_of_the_void.lore_1"))
-        tooltip.add(Text.translatable("item.vaaw.scythe_of_the_void.lore_2"))
+        tooltip.add(Text.translatable("itemTooltip.vaaw.void_scythe1"))
+        tooltip.add(Text.translatable("itemTooltip.vaaw.void_scythe2"))
         super.appendTooltip(stack, world, tooltip, context)
     }
 

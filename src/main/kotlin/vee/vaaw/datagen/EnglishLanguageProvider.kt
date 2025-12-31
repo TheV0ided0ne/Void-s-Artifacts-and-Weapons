@@ -36,6 +36,26 @@ class EnglishLanguageProvider(
         }
     }
 
+    // You can add anything miscellaneous here if you want, using the function is recommended.
+    override fun generateTranslations(tBuilder: TranslationBuilder) {
+
+        // Auto Generates Item Names
+        allItems.forEach { item ->
+            val itemId = Registries.ITEM.getId(item).path
+            val name = uniqueItems[itemId] ?: formatItemName(itemId)
+
+            tBuilder.add(item, name)
+        }
+
+        // Runs all the other translation functions.
+        itemGroups(tBuilder)
+        effects(tBuilder)
+        messages(tBuilder)
+        tooltips(tBuilder)
+
+    }
+
+
     // Here are all the functions for translation addition! Feel free to add more if needed.
     fun itemGroups(tBuilder: TranslationBuilder) {
         tBuilder.add("itemGroup.vaaw_armour", "VAAW Armour")
@@ -55,26 +75,9 @@ class EnglishLanguageProvider(
         tBuilder.add("death.attack.void_touched.player", "%1\$s failed to manifest the void while fighting %2\$s")
     }
 
-    fun misc(tBuilder: TranslationBuilder) {}
-
-
-    // You can add anything miscellaneous here if you want, using the function is recommended.
-    override fun generateTranslations(tBuilder: TranslationBuilder) {
-
-        // Auto Generates Item Names
-        allItems.forEach { item ->
-            val itemId = Registries.ITEM.getId(item).path
-            val name = uniqueItems[itemId] ?: formatItemName(itemId)
-
-            tBuilder.add(item, name)
-        }
-
-        // Runs all the other translation functions.
-        itemGroups(tBuilder)
-        effects(tBuilder)
-        messages(tBuilder)
-        misc(tBuilder)
-
+    fun tooltips(tBuilder: TranslationBuilder) {
+        tBuilder.add("itemTooltip.vaaw.void_scythe1", "§5Forged by The Voided One himself to fulfill a purpose.")
+        tBuilder.add("itemTooltip.vaaw.void_scythe2", "§5Now §4YOU §5must carry this purpose and defeat all who stand in your way.")
     }
 
 }

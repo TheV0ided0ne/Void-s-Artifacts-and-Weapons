@@ -12,6 +12,10 @@ object AngelicInjectionEffect : StatusEffect(
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int) {
         if (entity.world.isClient) return
 
+        if (entity.hasStatusEffect(VoidTouchedEffect)) {
+            entity.removeStatusEffect(VoidTouchedEffect)
+        }
+
         entity.heal(3f)
     }
 
