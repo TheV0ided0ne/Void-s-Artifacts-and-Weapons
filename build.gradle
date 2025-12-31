@@ -56,7 +56,6 @@ dependencies {
     implementation 'org.lwjgl:lwjgl-opengl:3.3.2'
 
     modImplementation files("libs/nuxon-1.0.0.jar")
-    include files("libs/nuxon-1.0.0.jar")
 
     modRuntimeOnly "maven.modrinth:cloth-config:11.1.136+fabric"
 
