@@ -10,8 +10,7 @@ import net.minecraft.registry.RegistryKey
 import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import vee.vaaw.Vaaw
-import vee.vaaw.item.DevItems
-import vee.vaaw.item.IngotItems
+import vee.vaaw.item.ArmourItems
 
 object ArmourItemGroup {
 
@@ -19,7 +18,7 @@ object ArmourItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_armour"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(IngotItems.VOID_STEEL_INGOT) }
+        .icon { ItemStack(ArmourItems.VOID_STEEL_CROWN) }
         .displayName(Text.translatable("itemGroup.vaaw_armour"))
         .build()
 
@@ -32,9 +31,17 @@ object ArmourItemGroup {
     fun addItemGroupItems() {
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
-            itemGroup.add(DevItems.COMMAS_ITEM)
+            itemGroup.add(ArmourItems.VOID_STEEL_CROWN)
         }
-
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(ArmourItems.VOID_STEEL_CHESTPLATE)
+        }
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(ArmourItems.VOID_STEEL_LEGGINGS)
+        }
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(ArmourItems.VOID_STEEL_BOOTS)
+        }
     }
 
     fun registerGroup() {

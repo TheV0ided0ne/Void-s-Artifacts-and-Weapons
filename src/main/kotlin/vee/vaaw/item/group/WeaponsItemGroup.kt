@@ -34,6 +34,10 @@ object WeaponsItemGroup {
             itemGroup.add(WeaponItems.VOID_SCYTHE)
         }
 
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.OBLIVION_SCYTHE)
+        }
+
     }
 
     fun registerGroup() {

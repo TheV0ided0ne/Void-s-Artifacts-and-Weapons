@@ -43,6 +43,7 @@ object MaterialsItemGroup {
             itemGroup.add(MaterialItems.VOID_CRYSTAL)
             itemGroup.add(MaterialItems.VOID_THORN)
             itemGroup.add(MaterialItems.REINFORCED_STICK)
+            itemGroup.add(MaterialItems.SELKARIN_SCALE)
         }
 
     }

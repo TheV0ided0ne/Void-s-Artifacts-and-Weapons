@@ -76,8 +76,9 @@ class EnglishLanguageProvider(
     }
 
     fun tooltips(tBuilder: TranslationBuilder) {
-        tBuilder.add("itemTooltip.vaaw.void_scythe1", "§5Forged by The Voided One himself to fulfill a purpose.")
-        tBuilder.add("itemTooltip.vaaw.void_scythe2", "§5Now §4YOU §5must carry this purpose and defeat all who stand in your way.")
+        tBuilder.add("itemTooltip.vaaw.void_scythe1", "§5Forged by The Voided One himself to fulfill a purpose after his Oblivion Scythe shattered in ITM,")
+        tBuilder.add("itemTooltip.vaaw.void_scythe2", "§5now §4YOU §5must carry this purpose and defeat all who stand in your way with this legendary weapon!")
+        tBuilder.add("itemTooltip.vaaw.oblivion_scythe1", "The start of a legend, use this scythe that 'The Voided One' himself used to shatter all evil in your way!")
     }
 
 }

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "vaaw:oblivion_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OS ",
+    " S "
+  ],
+  "result": {
+    "item": "vaaw:scythe_of_oblivion"
+  },
+  "show_notification": true
+}

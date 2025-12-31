@@ -1,0 +1,36 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench from OfficialVoidVA",
+	"parent": "minecraft:netherite_sword",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "vaaw:item/scytheofoblivion/handle",
+		"particle": "vaaw:item/scytheofoblivion/handle"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 8],
+			"to": [9, 28, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 14], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 14], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 14], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 14], "texture": "#0"},
+				"up": {"uv": [5, 1, 4, 0], "texture": "#0"},
+				"down": {"uv": [5, 1, 4, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 0, -44.5],
+			"translation": [-3.5, -3, 0],
+			"scale": [1, 0.7168, 1]
+		},
+		"fixed": {
+			"rotation": [0, 0, 54.5],
+			"translation": [5, -3.25, 0]
+		}
+	}
+}

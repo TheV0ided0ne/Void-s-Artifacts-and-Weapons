@@ -7,6 +7,7 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder
 import net.minecraft.item.Items
 import net.minecraft.recipe.book.RecipeCategory
+import vee.vaaw.item.IngotItems
 import vee.vaaw.item.MaterialItems
 import vee.vaaw.item.WeaponItems
 import java.util.function.Consumer
@@ -54,14 +55,25 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
         // Scythe Of The Void
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, WeaponItems.VOID_SCYTHE, 1)
             .pattern("TCC")
-            .pattern("CS ")
+            .pattern("CSs")
             .pattern(" S ")
             .input('T', MaterialItems.VOID_THORN)
             .input('C', MaterialItems.VOID_CRYSTAL)
             .input('S', MaterialItems.REINFORCED_STICK)
+            .input('s', WeaponItems.OBLIVION_SCYTHE)
             .criterion(hasItem(MaterialItems.VOID_THORN), conditionsFromItem(MaterialItems.VOID_THORN))
             .offerTo(consumer)
 
+        // Scythe Of Oblivion
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, WeaponItems.OBLIVION_SCYTHE, 1)
+            .pattern("OOO")
+            .pattern("OS ")
+            .pattern(" S ")
+            .input('O', IngotItems.OBLIVION_INGOT)
+            .input('S', Items.STICK)
+            .criterion(hasItem(IngotItems.OBLIVION_INGOT), conditionsFromItem(IngotItems.OBLIVION_INGOT))
+            .offerTo(consumer)
     }
 
 }

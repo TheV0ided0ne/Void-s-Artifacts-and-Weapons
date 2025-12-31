@@ -10,11 +10,14 @@
     },
     "T": {
       "item": "vaaw:void_thorn"
+    },
+    "s": {
+      "item": "vaaw:scythe_of_oblivion"
     }
   },
   "pattern": [
     "TCC",
-    "CS ",
+    "CSs",
     " S "
   ],
   "result": {
