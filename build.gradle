@@ -39,9 +39,10 @@ repositories {
         url = "https://api.modrinth.com/maven"
     }
 
-    maven{
+    maven {
         url = "https://cursemaven.com"
     }
+
 }
 
 dependencies {
@@ -57,7 +58,11 @@ dependencies {
     modImplementation files("libs/nuxon-1.0.0.jar")
     include files("libs/nuxon-1.0.0.jar")
 
-    modImplementation("maven.modrinth:levelz:1.4.13+1.20.1")
+    modRuntimeOnly "maven.modrinth:cloth-config:11.1.136+fabric"
+
+    modRuntimeOnly "maven.modrinth:levelz:1.4.13+1.20.1"
+    modRuntimeOnly "maven.modrinth:libz:1.0.3+1.20.1"
+
 }
 
 processResources {

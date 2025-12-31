@@ -19,6 +19,6 @@
   "itemGroup.vaaw_materials": "VAAW Materials",
   "itemGroup.vaaw_misc": "VAAW Miscellaneous",
   "itemGroup.vaaw_weapons": "VAAW Weapons",
-  "item.vaaw.scythe_of_the_void.lore_1": "§5Forged by The Voided One himself to fufull a purpose",
-  "item.vaaw.scythe_of_the_void.lore_2": "§5Now §4YOU §5must carry this purpose and defeat all who stand in your way"
+  "itemTooltip.vaaw.void_scythe1": "§5Forged by The Voided One himself to fulfill a purpose.",
+  "itemTooltip.vaaw.void_scythe2": "§5Now §4YOU §5must carry this purpose and defeat all who stand in your way."
 }
