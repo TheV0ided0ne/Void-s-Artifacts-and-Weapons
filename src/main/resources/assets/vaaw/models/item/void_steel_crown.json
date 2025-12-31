@@ -4,8 +4,8 @@
 	"parent": "minecraft:diamond_helmet",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "vaaw:item/voidhelm/crown_base",
-		"particle": "vaaw:item/voidhelm/crown_base"
+		"0": "vaaw:item/voidcrown/crown_base",
+		"particle": "vaaw:item/voidcrown/crown_base"
 	},
 	"elements": [
 		{
