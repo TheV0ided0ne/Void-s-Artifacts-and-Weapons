@@ -6,6 +6,7 @@ import net.minecraft.recipe.Ingredient
 import net.minecraft.sound.SoundEvent
 import net.minecraft.sound.SoundEvents
 import vee.vaaw.item.IngotItems
+import vee.vaaw.item.MaterialItems
 
 enum class ArmourMaterials(
     private val durabilityMultiplier: Int,
@@ -19,6 +20,14 @@ enum class ArmourMaterials(
 
     VOID_STEEL(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
         35, Ingredient.ofItems(IngotItems.VOID_STEEL_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
+    ),
+
+    SELKARIN_SCALE(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
+        28, Ingredient.ofItems(MaterialItems.SELKARIN_SCALE), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
+    ),
+
+    WRATH_STEEL_INGOT(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
+        25, Ingredient.ofItems(IngotItems.WRATH_STEEL_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     );
 
     companion object {

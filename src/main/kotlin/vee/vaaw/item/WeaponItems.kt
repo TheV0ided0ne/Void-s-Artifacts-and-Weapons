@@ -12,7 +12,7 @@ object WeaponItems : ItemRegistrator("vaaw") {
         8, -3f, FabricItemSettings()))
 
     val OBLIVION_SCYTHE = register("scythe_of_oblivion", OblivionScytheItem(ToolMaterials.OBLIVION,
-        6, -3f, FabricItemSettings()))
+        6, -3.2f, FabricItemSettings()))
 
     fun registerItems() {}
 
