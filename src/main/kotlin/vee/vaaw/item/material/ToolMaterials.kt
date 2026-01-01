@@ -4,7 +4,7 @@ import net.minecraft.item.ToolMaterial
 import net.minecraft.recipe.Ingredient
 import vee.vaaw.item.IngotItems
 
-enum class WeaponMaterials(
+enum class ToolMaterials(
     private val durability: Int,
     private val miningSpeed: Float,
     private val attackDamage: Float,
@@ -16,7 +16,7 @@ enum class WeaponMaterials(
     VOID_STEEL(4000, 9.0f, 5.0f, 4, 35,
         Ingredient.ofItems(IngotItems.VOID_STEEL_INGOT)),
 
-    OBLIVION_INGOT(2500, 7.0f, 3.0f, 3, 25,
+    OBLIVION(2500, 7.0f, 3.0f, 3, 25,
         Ingredient.ofItems(IngotItems.OBLIVION_INGOT));
 
     override fun getDurability() = durability
