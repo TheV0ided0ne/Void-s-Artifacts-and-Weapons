@@ -47,6 +47,7 @@
     "levelz": "*"
   },
   "recommends": {
-    "aether": "*"
+    "aether": "*",
+    "bettercombat": "*"
   }
 }
