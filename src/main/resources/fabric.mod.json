@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "vaaw",
-  "version": "${version}",
+  "version": "0.0.1-DEVBUILD",
   "name": "Void's Artifacts and Weapons",
-  "description": "Adds a unique array of different Artifacts and Weapons!\n\nRecommended to be used with mods that make Minecraft harder.",
+  "description": "Adds a unique array of different Artifacts and Weapons from the show called 'Into The Multiverse'.\n\nRecommended to be used with mods that make Minecraft harder.",
   "authors": [
     "VoidVA",
     "Mako",
