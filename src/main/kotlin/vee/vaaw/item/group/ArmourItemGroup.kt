@@ -32,16 +32,11 @@ object ArmourItemGroup {
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             itemGroup.add(ArmourItems.VOID_STEEL_CROWN)
-        }
-        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             itemGroup.add(ArmourItems.VOID_STEEL_CHESTPLATE)
-        }
-        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             itemGroup.add(ArmourItems.VOID_STEEL_LEGGINGS)
-        }
-        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             itemGroup.add(ArmourItems.VOID_STEEL_BOOTS)
         }
+
     }
 
     fun registerGroup() {
