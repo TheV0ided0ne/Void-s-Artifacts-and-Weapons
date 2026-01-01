@@ -10,6 +10,7 @@ object MaterialItems : ItemRegistrator("vaaw") {
     val VOID_THORN = register("void_thorn", Item(FabricItemSettings()))
     val REINFORCED_STICK = register("reinforced_stick", Item(FabricItemSettings()))
     val SELKARIN_SCALE = register("selkarin_scale", Item(FabricItemSettings()))
+    val ANGEL_HEART = register("angel_heart", Item(FabricItemSettings()))
 
     fun registerItems() {}
 

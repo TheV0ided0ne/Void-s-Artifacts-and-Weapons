@@ -35,10 +35,6 @@ object ArmourItemGroup {
             itemGroup.add(ArmourItems.VOID_STEEL_CHESTPLATE)
             itemGroup.add(ArmourItems.VOID_STEEL_LEGGINGS)
             itemGroup.add(ArmourItems.VOID_STEEL_BOOTS)
-            itemGroup.add(ArmourItems.SELKARIN_HELMET)
-            itemGroup.add(ArmourItems.SELKARIN_CHESTPLATE)
-            itemGroup.add(ArmourItems.SELKARIN_LEGGINGS)
-            itemGroup.add(ArmourItems.SELKARIN_BOOTS)
 
         }
 

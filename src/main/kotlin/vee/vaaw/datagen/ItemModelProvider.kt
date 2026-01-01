@@ -61,6 +61,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
         modelGen.register(MaterialItems.VOID_THORN, Models.GENERATED)
         modelGen.register(MaterialItems.REINFORCED_STICK, Models.GENERATED)
         modelGen.register(MaterialItems.SELKARIN_SCALE, Models.GENERATED)
+        modelGen.register(MaterialItems.ANGEL_HEART, Models.GENERATED)
 
     }
 
