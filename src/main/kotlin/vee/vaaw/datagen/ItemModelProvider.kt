@@ -50,7 +50,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
         modelGen.register(IngotItems.VOID_STEEL_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.OSMIUM_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.IRIDIUM_INGOT, Models.GENERATED)
-        modelGen.register(IngotItems.OBLIVION_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.OBLIVIUM_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.TUNGSTEN_INGOT, Models.GENERATED)
 
     }

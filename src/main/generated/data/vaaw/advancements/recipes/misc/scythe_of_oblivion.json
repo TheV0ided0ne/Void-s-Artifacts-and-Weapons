@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_oblivion_ingot": {
+    "has_oblivium_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vaaw:oblivion_ingot"
+              "vaaw:oblivium_ingot"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_oblivion_ingot",
+      "has_oblivium_ingot",
       "has_the_recipe"
     ]
   ],

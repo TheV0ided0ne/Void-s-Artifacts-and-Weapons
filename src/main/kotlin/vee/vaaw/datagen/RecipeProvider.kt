@@ -70,9 +70,9 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .pattern("OOO")
             .pattern("OS ")
             .pattern(" S ")
-            .input('O', IngotItems.OBLIVION_INGOT)
+            .input('O', IngotItems.OBLIVIUM_INGOT)
             .input('S', Items.STICK)
-            .criterion(hasItem(IngotItems.OBLIVION_INGOT), conditionsFromItem(IngotItems.OBLIVION_INGOT))
+            .criterion(hasItem(IngotItems.OBLIVIUM_INGOT), conditionsFromItem(IngotItems.OBLIVIUM_INGOT))
             .offerTo(consumer)
     }
 

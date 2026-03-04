@@ -34,7 +34,7 @@ object MaterialsItemGroup {
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             // IngotItems
             itemGroup.add(IngotItems.VOID_STEEL_INGOT)
-            itemGroup.add(IngotItems.OBLIVION_INGOT)
+            itemGroup.add(IngotItems.OBLIVIUM_INGOT)
             itemGroup.add(IngotItems.IRIDIUM_INGOT)
             itemGroup.add(IngotItems.OSMIUM_INGOT)
             itemGroup.add(IngotItems.TUNGSTEN_INGOT)
