@@ -35,7 +35,7 @@ object WeaponsItemGroup {
         }
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
-            itemGroup.add(WeaponItems.OBLIVION_SCYTHE)
+            itemGroup.add(WeaponItems.OBLIVIUM_SCYTHE)
         }
 
     }

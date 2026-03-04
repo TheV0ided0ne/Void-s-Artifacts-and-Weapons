@@ -16,7 +16,7 @@ enum class ToolMaterials(
     VOID_STEEL(4000, 9.0f, 5.0f, 4, 35,
         Ingredient.ofItems(IngotItems.VOID_STEEL_INGOT)),
 
-    OBLIVION(2500, 7.0f, 3.0f, 3, 25,
+    OBLIVIUM(2500, 7.0f, 3.0f, 3, 25,
         Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT));
 
     override fun getDurability() = durability

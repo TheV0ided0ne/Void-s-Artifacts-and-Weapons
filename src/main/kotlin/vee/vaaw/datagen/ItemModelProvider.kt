@@ -48,10 +48,11 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
     fun ingotItems(modelGen: ItemModelGenerator) {
 
         modelGen.register(IngotItems.VOID_STEEL_INGOT, Models.GENERATED)
-        modelGen.register(IngotItems.OSMIUM_INGOT, Models.GENERATED)
-        modelGen.register(IngotItems.IRIDIUM_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.ANGELIC_STEEL, Models.GENERATED)
+        modelGen.register(IngotItems.ELPHIUM_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.ITRIOCH_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.OBLIVIUM_INGOT, Models.GENERATED)
-        modelGen.register(IngotItems.TUNGSTEN_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.NIXIUM_INGOT, Models.GENERATED)
 
     }
 

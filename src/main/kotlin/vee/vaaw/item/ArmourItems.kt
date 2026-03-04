@@ -13,5 +13,10 @@ object ArmourItems : ItemRegistrator("vaaw") {
     val VOID_STEEL_LEGGINGS = register("void_steel_leggings", ArmorItem(d.vSteel, d.leggings, d.settings))
     val VOID_STEEL_BOOTS = register("void_steel_boots", ArmorItem(d.vSteel, d.boot, d.settings))
 
+    val WRATH_STEEL_DRAGON_HELMET = register("wrath_steel_dragon_helm", ArmorItem(d.wSteel, d.helmet, d.settings))
+    val WRATH_STEEL_DRAGON_CHESTPLATE = register("wrath_steel_dragon_chestplate", ArmorItem(d.wSteel, d.helmet, d.settings))
+    val WRATH_STEEL_DRAGON_LEGGINGS = register("wrath_steel_dragon_leggings", ArmorItem(d.wSteel, d.helmet, d.settings))
+    val WRATH_STEEL_DRAGON_BOOTS = register("wrath_steel_dragon_boots", ArmorItem(d.wSteel, d.helmet, d.settings))
+
     fun registerItems() {}
 }

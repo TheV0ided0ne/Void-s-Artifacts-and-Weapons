@@ -7,6 +7,9 @@ import vee.vaaw.item.material.ArmourMaterials
 data class ArmourDefaults(
     // Materials
     val vSteel: ArmourMaterials = ArmourMaterials.VOID_STEEL,
+    val wSteel: ArmourMaterials = ArmourMaterials.WRATH_STEEL_INGOT,
+    val aSteel: ArmourMaterials = ArmourMaterials.ANGELIC_STEEL,
+    val sScale: ArmourMaterials = ArmourMaterials.SELKARIN_SCALE,
 
     // Armour Types
     val helmet: ArmorItem.Type = ArmorItem.Type.HELMET,

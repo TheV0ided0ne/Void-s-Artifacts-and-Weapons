@@ -28,6 +28,10 @@ enum class ArmourMaterials(
 
     WRATH_STEEL_INGOT(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
         25, Ingredient.ofItems(IngotItems.WRATH_STEEL_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
+    ),
+
+    ANGELIC_STEEL(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
+    25, Ingredient.ofItems(IngotItems.ANGELIC_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     );
 
     companion object {

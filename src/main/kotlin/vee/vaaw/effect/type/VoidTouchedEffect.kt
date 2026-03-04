@@ -14,7 +14,7 @@ object VoidTouchedEffect : StatusEffect(
 
         val voidTouchedSource = DamageHelper.createDamageSource(entity, "vaaw", "void_touched")
 
-        entity.damage(voidTouchedSource, 2.0F)
+        entity.damage(voidTouchedSource, 3.0F)
     }
 
     override fun canApplyUpdateEffect(duration: Int, amplifier: Int): Boolean {

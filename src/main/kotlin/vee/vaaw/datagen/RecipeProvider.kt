@@ -60,13 +60,13 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .input('T', MaterialItems.VOID_THORN)
             .input('C', MaterialItems.VOID_CRYSTAL)
             .input('S', MaterialItems.REINFORCED_STICK)
-            .input('s', WeaponItems.OBLIVION_SCYTHE)
+            .input('s', WeaponItems.OBLIVIUM_SCYTHE)
             .criterion(hasItem(MaterialItems.VOID_THORN), conditionsFromItem(MaterialItems.VOID_THORN))
             .offerTo(consumer)
 
         // Scythe Of Oblivion
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, WeaponItems.OBLIVION_SCYTHE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, WeaponItems.OBLIVIUM_SCYTHE, 1)
             .pattern("OOO")
             .pattern("OS ")
             .pattern(" S ")
