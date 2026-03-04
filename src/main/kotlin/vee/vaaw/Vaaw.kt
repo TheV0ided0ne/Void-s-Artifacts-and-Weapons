@@ -5,6 +5,7 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import vee.vaaw.util.EffectHelper
 import vee.vaaw.util.ItemHelper
+import software.bernie.geckolib.GeckoLib
 
 object Vaaw : ModInitializer {
 
@@ -12,7 +13,9 @@ object Vaaw : ModInitializer {
     val logger: Logger = LoggerFactory.getLogger(MOD_ID)
 
     override fun onInitialize() {
-        logger.info("VAaW is now initializing.")
+        logger.info("VAAW is now initializing.")
+
+        GeckoLib.initialize()
 
         ItemHelper.initializeItems()
         ItemHelper.initializeItemGroups()
