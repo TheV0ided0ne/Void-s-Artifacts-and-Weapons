@@ -6,7 +6,6 @@ import net.minecraft.data.client.BlockStateModelGenerator
 import net.minecraft.data.client.ItemModelGenerator
 import net.minecraft.data.client.Models
 import vee.vaaw.item.ConsumableItems
-import vee.vaaw.item.DevItems
 import vee.vaaw.item.IngotItems
 import vee.vaaw.item.MaterialItems
 
@@ -27,7 +26,6 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
     override fun generateItemModels(itemModelGenerator: ItemModelGenerator) {
 
         consumableItems(itemModelGenerator)
-        devItems(itemModelGenerator)
         ingotItems(itemModelGenerator)
         materialItems(itemModelGenerator)
 
@@ -39,16 +37,11 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
 
     }
 
-    fun devItems(modelGen: ItemModelGenerator) {
-
-        modelGen.register(DevItems.COMMAS_ITEM, Models.GENERATED)
-
-    }
-
     fun ingotItems(modelGen: ItemModelGenerator) {
 
-        modelGen.register(IngotItems.VOID_STEEL_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.VOID_STEEL, Models.GENERATED)
         modelGen.register(IngotItems.ANGELIC_STEEL, Models.GENERATED)
+        modelGen.register(IngotItems.WRATH_STEEL, Models.GENERATED)
         modelGen.register(IngotItems.ELPHIUM_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.ITRIOCH_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.OBLIVIUM_INGOT, Models.GENERATED)

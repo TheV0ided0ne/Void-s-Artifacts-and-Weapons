@@ -10,7 +10,6 @@ import net.minecraft.registry.RegistryKey
 import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import vee.vaaw.Vaaw
-import vee.vaaw.item.DevItems
 import vee.vaaw.item.IngotItems
 
 object MiscItemGroup {
@@ -19,7 +18,7 @@ object MiscItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_misc"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(IngotItems.VOID_STEEL_INGOT) }
+        .icon { ItemStack(IngotItems.VOID_STEEL) }
         .displayName(Text.translatable("itemGroup.vaaw_misc"))
         .build()
 
@@ -32,7 +31,6 @@ object MiscItemGroup {
     fun addItemGroupItems() {
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
-            itemGroup.add(DevItems.COMMAS_ITEM)
         }
 
     }

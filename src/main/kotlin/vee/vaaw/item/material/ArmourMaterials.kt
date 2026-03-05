@@ -19,7 +19,7 @@ enum class ArmourMaterials(
 ): ArmorMaterial {
 
     VOID_STEEL(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
-        35, Ingredient.ofItems(IngotItems.VOID_STEEL_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
+        35, Ingredient.ofItems(IngotItems.VOID_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     ),
 
     SELKARIN_SCALE(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
@@ -27,7 +27,7 @@ enum class ArmourMaterials(
     ),
 
     WRATH_STEEL_INGOT(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
-        25, Ingredient.ofItems(IngotItems.WRATH_STEEL_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
+        25, Ingredient.ofItems(IngotItems.WRATH_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     ),
 
     ANGELIC_STEEL(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,

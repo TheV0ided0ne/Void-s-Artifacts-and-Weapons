@@ -6,8 +6,8 @@ import nuxlox.nuxon.item.ItemRegistrator
 
 object IngotItems : ItemRegistrator("vaaw") {
 
-    val VOID_STEEL_INGOT = register("void_steel_ingot", Item(FabricItemSettings()))
-    val WRATH_STEEL_INGOT = register("wrath_steel_ingot", Item(FabricItemSettings()))
+    val VOID_STEEL = register("void_steel", Item(FabricItemSettings()))
+    val WRATH_STEEL = register("wrath_steel", Item(FabricItemSettings()))
     val ANGELIC_STEEL = register("angelic_steel", Item(FabricItemSettings()))
     val OBLIVIUM_INGOT = register("oblivium_ingot", Item(FabricItemSettings()))
     val ITRIOCH_INGOT = register("itrioch_ingot", Item(FabricItemSettings()))

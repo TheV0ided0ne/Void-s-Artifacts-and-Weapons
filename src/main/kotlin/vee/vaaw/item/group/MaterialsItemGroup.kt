@@ -19,7 +19,7 @@ object MaterialsItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_materials"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(IngotItems.VOID_STEEL_INGOT) }
+        .icon { ItemStack(IngotItems.VOID_STEEL) }
         .displayName(Text.translatable("itemGroup.vaaw_materials"))
         .build()
 
@@ -33,7 +33,7 @@ object MaterialsItemGroup {
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             // IngotItems
-            itemGroup.add(IngotItems.VOID_STEEL_INGOT)
+            itemGroup.add(IngotItems.VOID_STEEL)
             itemGroup.add(IngotItems.OBLIVIUM_INGOT)
             itemGroup.add(IngotItems.ITRIOCH_INGOT)
             itemGroup.add(IngotItems.ELPHIUM_INGOT)

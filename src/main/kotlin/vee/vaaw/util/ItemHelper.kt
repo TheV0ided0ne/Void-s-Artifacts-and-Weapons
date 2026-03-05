@@ -2,7 +2,6 @@ package vee.vaaw.util
 
 import vee.vaaw.item.ArmourItems
 import vee.vaaw.item.ConsumableItems
-import vee.vaaw.item.DevItems
 import vee.vaaw.item.IngotItems
 import vee.vaaw.item.MaterialItems
 import vee.vaaw.item.MiscItems
@@ -18,7 +17,6 @@ object ItemHelper {
     fun initializeItems() {
         ArmourItems.registerItems()
         ConsumableItems.registerItems()
-        DevItems.registerItems()
         IngotItems.registerItems()
         MaterialItems.registerItems()
         MiscItems.registerItems()

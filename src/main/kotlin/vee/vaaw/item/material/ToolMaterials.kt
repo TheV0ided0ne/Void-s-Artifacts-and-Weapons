@@ -14,7 +14,7 @@ enum class ToolMaterials(
 ) : ToolMaterial {
 
     VOID_STEEL(4000, 9.0f, 5.0f, 4, 35,
-        Ingredient.ofItems(IngotItems.VOID_STEEL_INGOT)),
+        Ingredient.ofItems(IngotItems.VOID_STEEL)),
 
     OBLIVIUM(2500, 7.0f, 3.0f, 3, 25,
         Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT));
