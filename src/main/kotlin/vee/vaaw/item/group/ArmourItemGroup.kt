@@ -36,6 +36,21 @@ object ArmourItemGroup {
             itemGroup.add(ArmourItems.VOID_STEEL_LEGGINGS)
             itemGroup.add(ArmourItems.VOID_STEEL_BOOTS)
 
+            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_HELMET)
+            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_CHESTPLATE)
+            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_LEGGINGS)
+            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_BOOTS)
+
+            itemGroup.add(ArmourItems.ANGELIC_HALO)
+            itemGroup.add(ArmourItems.ANGELIC_CHESTPLATE)
+            itemGroup.add(ArmourItems.ANGELIC_LEGGINGS)
+            itemGroup.add(ArmourItems.ANGELIC_BOOTS)
+
+            itemGroup.add(ArmourItems.SELKARIN_HELMET)
+            itemGroup.add(ArmourItems.SELKARIN_CHESTPLATE)
+            itemGroup.add(ArmourItems.SELKARIN_LEGGINGS)
+            itemGroup.add(ArmourItems.SELKARIN_BOOTS)
+
         }
 
     }

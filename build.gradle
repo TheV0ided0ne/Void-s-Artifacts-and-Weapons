@@ -76,10 +76,6 @@ dependencies {
 
     modImplementation files("libs/nuxon-1.0.0.jar")
 
-    modImplementation "curse.maven:accessories-938917:7164886"
-    modImplementation "curse.maven:trinkets-341284:5173501"
-    modImplementation "curse.maven:accessories-tc-layer-1005680:5780755"
-
     modRuntimeOnly "maven.modrinth:cloth-config:11.1.136+fabric"
 
     modRuntimeOnly "maven.modrinth:levelz:1.4.13+1.20.1"
