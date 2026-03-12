@@ -15,7 +15,6 @@ object AngelicInjectionEffect : StatusEffect(
         if (entity.hasStatusEffect(VoidTouchedEffect)) {
             entity.removeStatusEffect(VoidTouchedEffect)
         }
-
         entity.heal(3f)
     }
 

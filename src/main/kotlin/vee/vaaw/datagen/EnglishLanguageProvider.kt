@@ -49,6 +49,7 @@ class EnglishLanguageProvider(
 
         // Runs all the other translation functions.
         itemGroups(tBuilder)
+        trinketSlots(tBuilder)
         effects(tBuilder)
         messages(tBuilder)
         tooltips(tBuilder)
@@ -63,6 +64,12 @@ class EnglishLanguageProvider(
         tBuilder.add("itemGroup.vaaw_materials", "VAAW Materials")
         tBuilder.add("itemGroup.vaaw_misc", "VAAW Miscellaneous")
         tBuilder.add("itemGroup.vaaw_weapons", "VAAW Weapons")
+    }
+
+    fun trinketSlots(tBuilder: TranslationBuilder) {
+        tBuilder.add("trinkets.slot.vaaw.trinket_1", "Artifact Slot 1")
+        tBuilder.add("trinkets.slot.vaaw.trinket_2", "Artifact Slot 2")
+        tBuilder.add("trinkets.slot.vaaw.trinket_3", "Artifact Slot 3")
     }
 
     fun effects(tBuilder: TranslationBuilder) {

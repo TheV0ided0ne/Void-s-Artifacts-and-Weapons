@@ -6,6 +6,8 @@ import org.slf4j.LoggerFactory
 import vee.vaaw.util.EffectHelper
 import vee.vaaw.util.ItemHelper
 import software.bernie.geckolib.GeckoLib
+import vee.vaaw.effect.PositiveEffects
+import vee.vaaw.effect.NegativeEffects
 
 object Vaaw : ModInitializer {
 
@@ -16,6 +18,10 @@ object Vaaw : ModInitializer {
         logger.info("VAAW is now initializing.")
 
         GeckoLib.initialize()
+
+        // Initialize effects
+        PositiveEffects.registerEffects()
+        NegativeEffects.registerEffects()
 
         ItemHelper.initializeItems()
         ItemHelper.initializeItemGroups()

@@ -46,7 +46,7 @@ object ArmourItemGroup {
             itemGroup.add(ArmourItems.ANGELIC_LEGGINGS)
             itemGroup.add(ArmourItems.ANGELIC_BOOTS)
 
-            itemGroup.add(ArmourItems.SELKARIN_HELMET)
+            itemGroup.add(ArmourItems.SELKARIN_NECKLACE)
             itemGroup.add(ArmourItems.SELKARIN_CHESTPLATE)
             itemGroup.add(ArmourItems.SELKARIN_LEGGINGS)
             itemGroup.add(ArmourItems.SELKARIN_BOOTS)

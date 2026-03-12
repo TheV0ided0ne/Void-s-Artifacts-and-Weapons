@@ -38,6 +38,14 @@ object WeaponsItemGroup {
             itemGroup.add(WeaponItems.OBLIVIUM_SCYTHE)
         }
 
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.ANGELIC_RAPIER)
+        }
+
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.UNPOWERED_OCEANSCALE_BLADE)
+        }
+
     }
 
     fun registerGroup() {

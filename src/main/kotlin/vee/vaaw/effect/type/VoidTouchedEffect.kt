@@ -18,7 +18,7 @@ object VoidTouchedEffect : StatusEffect(
     }
 
     override fun canApplyUpdateEffect(duration: Int, amplifier: Int): Boolean {
-        return duration % 40 == 0
+        return duration % 20 == 0
     }
 
 }

@@ -23,7 +23,7 @@ object ArmourItems : ItemRegistrator("vaaw") {
     val ANGELIC_LEGGINGS = register("angelic_leggings", ArmorItem(d.aSteel, d.leggings, d.settings))
     val ANGELIC_BOOTS = register("angelic_boots", ArmorItem(d.aSteel, d.boot, d.settings))
 
-    val SELKARIN_HELMET = register("selkarin_helmet", ArmorItem(d.sScale, d.helmet, d.settings))
+    val SELKARIN_NECKLACE = register("selkarin_necklace", ArmorItem(d.sScale, d.helmet, d.settings))
     val SELKARIN_CHESTPLATE = register("selkarin_chestplate", ArmorItem(d.sScale, d.chestplate, d.settings))
     val SELKARIN_LEGGINGS = register("selkarin_leggings", ArmorItem(d.sScale, d.leggings, d.settings))
     val SELKARIN_BOOTS = register("selkarin_boots", ArmorItem(d.sScale, d.boot, d.settings))

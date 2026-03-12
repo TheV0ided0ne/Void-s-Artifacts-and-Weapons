@@ -3,6 +3,7 @@ package vee.vaaw.item.material
 import net.minecraft.item.ToolMaterial
 import net.minecraft.recipe.Ingredient
 import vee.vaaw.item.IngotItems
+import vee.vaaw.item.MaterialItems
 
 enum class ToolMaterials(
     private val durability: Int,
@@ -17,7 +18,13 @@ enum class ToolMaterials(
         Ingredient.ofItems(IngotItems.VOID_STEEL)),
 
     OBLIVIUM(2500, 7.0f, 3.0f, 3, 25,
-        Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT));
+        Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT)),
+
+    ANGELIC_STEEL(3500, 8.0f, 3.0f, 4, 35,
+        Ingredient.ofItems(IngotItems.ANGELIC_STEEL)),
+
+    SELKARIN_SCALE(3750, 8.5f, 4.0f, 4, 35,
+        Ingredient.ofItems(MaterialItems.SELKARIN_SCALE));
 
     override fun getDurability() = durability
     override fun getMiningSpeedMultiplier() = miningSpeed

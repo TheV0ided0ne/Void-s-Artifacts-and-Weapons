@@ -6,8 +6,9 @@
   "item.vaaw.angel_heart": "Angel Heart",
   "item.vaaw.angelic_boots": "Angelic Boots",
   "item.vaaw.angelic_chestplate": "Angelic Chestplate",
-  "item.vaaw.angelic_helmet": "Angelic Helmet",
+  "item.vaaw.angelic_halo": "Angelic Halo",
   "item.vaaw.angelic_leggings": "Angelic Leggings",
+  "item.vaaw.angelic_rapier": "Angelic Rapier",
   "item.vaaw.angelic_steel": "Angelic Steel",
   "item.vaaw.angelic_syringe": "Angelic Syringe",
   "item.vaaw.elphium_ingot": "Elphium Ingot",
@@ -17,7 +18,12 @@
   "item.vaaw.reinforced_stick": "Reinforced Stick",
   "item.vaaw.scythe_of_oblivion": "Scythe Of Oblivion",
   "item.vaaw.scythe_of_the_void": "Scythe Of The Void",
+  "item.vaaw.selkarin_boots": "Selkarin Boots",
+  "item.vaaw.selkarin_chestplate": "Selkarin Chestplate",
+  "item.vaaw.selkarin_leggings": "Selkarin Leggings",
+  "item.vaaw.selkarin_necklace": "Selkarin Necklace",
   "item.vaaw.selkarin_scale": "Selkarin Scale",
+  "item.vaaw.unpowered_oceanscale_blade": "Unpowered Oceanscale Blade",
   "item.vaaw.void_crystal": "Void Crystal",
   "item.vaaw.void_steel": "Void Steel",
   "item.vaaw.void_steel_boots": "Void Steel Boots",
@@ -37,5 +43,8 @@
   "itemGroup.vaaw_weapons": "VAAW Weapons",
   "itemTooltip.vaaw.oblivion_scythe1": "The start of a legend, use this scythe that 'The Voided One' himself used to shatter all evil in your way!",
   "itemTooltip.vaaw.void_scythe1": "§5Forged by The Voided One himself to fulfill a purpose after his Oblivion Scythe shattered in ITM,",
-  "itemTooltip.vaaw.void_scythe2": "§5now §4YOU §5must carry this purpose and defeat all who stand in your way with this legendary weapon!"
+  "itemTooltip.vaaw.void_scythe2": "§5now §4YOU §5must carry this purpose and defeat all who stand in your way with this legendary weapon!",
+  "trinkets.slot.vaaw.trinket_1": "Artifact Slot 1",
+  "trinkets.slot.vaaw.trinket_2": "Artifact Slot 2",
+  "trinkets.slot.vaaw.trinket_3": "Artifact Slot 3"
 }

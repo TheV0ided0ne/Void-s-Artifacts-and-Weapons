@@ -19,11 +19,14 @@
         "value": "vee.vaaw.VaawDataGenerator",
         "adapter": "kotlin"
       }
-
     ],
     "client": [
       {
         "value": "vee.vaaw.VaawClient",
+        "adapter": "kotlin"
+      },
+      {
+        "value": "vee.vaaw.client.VaawClientInit",
         "adapter": "kotlin"
       }
     ],
@@ -44,7 +47,8 @@
     "fabric-api": "*",
     "fabric-language-kotlin": "*",
     "nuxon": "*",
-    "levelz": "*"
+    "levelz": "*",
+    "trinkets": ">=3.7.2"
   },
   "recommends": {
     "aether": "*",
