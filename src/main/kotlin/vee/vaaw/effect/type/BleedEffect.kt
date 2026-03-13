@@ -4,27 +4,21 @@ import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectCategory
 
-object AngelicInjectionEffect : StatusEffect(
-    StatusEffectCategory.BENEFICIAL,
-    0xdbd7ca
+object BleedEffect : StatusEffect(
+    StatusEffectCategory.HARMFUL,
+    0xb50000
 ) {
 
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int) {
         if (entity.world.isClient) return
 
-        if (entity.hasStatusEffect(VoidTouchedEffect)) {
-            entity.removeStatusEffect(VoidTouchedEffect)
-        }
-
-        if (entity.hasStatusEffect(BleedEffect)) {
-            entity.removeStatusEffect(BleedEffect)
-        }
-
-        entity.heal(3f)
+        val damage = 1f + (amplifier * 0.5f)
+        entity.damage(entity.damageSources.magic(), damage)
     }
 
     override fun canApplyUpdateEffect(duration: Int, amplifier: Int): Boolean {
-        return duration % 20 == 0
+        val interval = maxOf(10, 20 - (amplifier * 5))
+        return duration % interval == 0
     }
 
 }

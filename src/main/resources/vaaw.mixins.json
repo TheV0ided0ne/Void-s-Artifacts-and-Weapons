@@ -4,7 +4,7 @@
   "package": "vee.vaaw.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "ExampleMixin"
+    "BleedOnHitMixin"
   ],
   "injectors": {
     "defaultRequire": 1
