@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "vaaw:scythe_of_oblivion"
+    },
+    "title": { "text": "A Scythe... Fit For A Legend!" },
+    "description": { "text": "Obtain The Scythe of Oblivion! '...The start of my journey.. has begun!' - Void " },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vaaw:root",
+  "criteria": {
+    "get_scythe_of_oblivion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["vaaw:scythe_of_oblivion"],
+            "count": { "min": 1 }
+          }
+        ]
+      }
+    }
+  }
+}

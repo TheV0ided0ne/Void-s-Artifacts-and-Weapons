@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "vaaw:scythe_of_the_void"
+    },
+    "title": { "text": "Void's Artifacts and Weapons" },
+    "description": { "text": "Begin your descent into the void..." },
+    "frame": "task",
+    "background": "minecraft:textures/block/obsidian.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

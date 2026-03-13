@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "vaaw:oblivium_ingot"
+    },
+    "title": { "text": "Forged in Oblivion" },
+    "description": { "text": "Obtain an Oblivium Ingot" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vaaw:root",
+  "criteria": {
+    "get_oblivium_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["vaaw:oblivium_ingot"],
+            "count": { "min": 1 }
+          }
+        ]
+      }
+    }
+  }
+}

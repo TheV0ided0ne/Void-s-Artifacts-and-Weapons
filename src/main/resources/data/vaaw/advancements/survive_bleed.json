@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": { "text": "Bloodied but Unbroken" },
+    "description": { "text": "Survive being inflicted with Bleed" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vaaw:root",
+  "criteria": {
+    "survive_bleed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "vaaw:bleed": {
+            "amplifier": { "min": 0 },
+            "duration": { "min": 1 }
+          }
+        }
+      }
+    }
+  }
+}

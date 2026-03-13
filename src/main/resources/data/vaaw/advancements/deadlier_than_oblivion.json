@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "vaaw:void_steel"
+    },
+    "title": { "text": "Deadlier than Oblivion" },
+    "description": { "text": "Obtain Void-Steel, something much more powerful than Oblivium... 'at last... I have done it!' - Void " },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vaaw:root",
+  "criteria": {
+    "get_void_steel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["vaaw:void_steel"],
+            "count": { "min": 1 }
+          }
+        ]
+      }
+    }
+  }
+}

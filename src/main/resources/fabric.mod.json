@@ -47,8 +47,7 @@
     "fabric-api": "*",
     "fabric-language-kotlin": "*",
     "nuxon": "*",
-    "levelz": "*",
-    "trinkets": ">=3.7.2"
+    "levelz": "*"
   },
   "recommends": {
     "aether": "*",

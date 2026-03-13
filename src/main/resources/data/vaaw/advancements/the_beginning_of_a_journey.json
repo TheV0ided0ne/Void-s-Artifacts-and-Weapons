@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "vaaw:void_steel"
+    },
+    "title": { "text": "A Void Awakens" },
+    "description": { "text": "Obtain any item from Void's Artifacts and Weapons" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "vaaw:root",
+  "criteria": {
+    "get_any_vaaw_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "vaaw:items"
+          }
+        ]
+      }
+    }
+  }
+}
