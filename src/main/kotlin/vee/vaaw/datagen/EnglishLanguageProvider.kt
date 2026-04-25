@@ -78,6 +78,8 @@ class EnglishLanguageProvider(
     fun messages(tBuilder: TranslationBuilder) {
         tBuilder.add("death.attack.void_touched", "%1\$s failed to manifest the void")
         tBuilder.add("death.attack.void_touched.player", "%1\$s failed to manifest the void while fighting %2\$s")
+        tBuilder.add("death.attack.bleed", "%1\$s bled out")
+        tBuilder.add("death.attack.bleed.player", "%1\$s bled out while fighting %2\$s")
     }
 
     fun tooltips(tBuilder: TranslationBuilder) {
