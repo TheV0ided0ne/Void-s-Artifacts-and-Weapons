@@ -17,19 +17,17 @@ import vee.vaaw.effect.type.BleedEffect;
 @Mixin(LivingEntity.class)
 public abstract class BleedOnHitMixin {
 
-    @Shadow public abstract World getWorld();
-    @Shadow public abstract Iterable<ItemStack> getArmorItems();
-    @SuppressWarnings("UnusedReturnValue")
-    @Shadow public abstract boolean addStatusEffect(StatusEffectInstance effect);
-
     @Inject(method = "damage", at = @At("TAIL"))
     private void onDamage(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
-        if (this.getWorld().isClient()) return;
+        @SuppressWarnings("all")
+        LivingEntity entity = (LivingEntity) (Object) this;
+
+        if (entity.getWorld().isClient()) return;
         if (!cir.getReturnValue()) return;
         if (!(source.getAttacker() instanceof MobEntity)) return;
 
         boolean isWearingArmor = false;
-        for (var stack : this.getArmorItems()) {
+        for (var stack : entity.getArmorItems()) {
             if (stack.getItem() instanceof ArmorItem) {
                 isWearingArmor = true;
                 break;
@@ -38,8 +36,8 @@ public abstract class BleedOnHitMixin {
 
         float chance = isWearingArmor ? 0.025f : 0.05f;
 
-        if (this.getWorld().getRandom().nextFloat() < chance) {
-            this.addStatusEffect(new StatusEffectInstance(BleedEffect.INSTANCE, 60, 0));
+        if (entity.getWorld().getRandom().nextFloat() < chance) {
+            entity.addStatusEffect(new StatusEffectInstance(BleedEffect.INSTANCE, 60, 0));
         }
     }
 }
