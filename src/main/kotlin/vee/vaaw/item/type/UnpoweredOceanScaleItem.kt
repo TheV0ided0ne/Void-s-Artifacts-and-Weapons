@@ -3,7 +3,7 @@ package vee.vaaw.item.type
 import net.minecraft.item.SwordItem
 import net.minecraft.item.ToolMaterial
 
-class UnpwerdOceanscaleItem(
+class UnpoweredOceanScaleItem(
     toolMaterial: ToolMaterial,
     attackDamage: Int,
     attackSpeed: Float,
