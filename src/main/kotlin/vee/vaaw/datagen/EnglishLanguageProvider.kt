@@ -91,6 +91,7 @@ class EnglishLanguageProvider(
 
     fun keybinds(tBuilder: TranslationBuilder) {
         tBuilder.add("key.vaaw.activate_armour_ability", "Activate Armour Ability")
+        tBuilder.add("key.vaaw.activate_weapon_ability", "Activate Weapon Ability")
     }
 
     fun categories(tBuilder: TranslationBuilder) {

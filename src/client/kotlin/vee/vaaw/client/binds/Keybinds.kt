@@ -16,6 +16,15 @@ object Keybinds {
         )
     )
 
+    val ACTIVATE_WEAPON_ABILITY: KeyBinding = KeyBindingHelper.registerKeyBinding(
+        KeyBinding(
+            "key.vaaw.activate_weapon_ability",
+            InputUtil.Type.KEYSYM,
+            GLFW.GLFW_KEY_V,
+            "category.vaaw.general"
+        )
+    )
+
     fun initializeKeybinds() {}
 
 }
