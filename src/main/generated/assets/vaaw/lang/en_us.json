@@ -1,4 +1,5 @@
 {
+  "category.vaaw.general": "VAAW Keybinds",
   "death.attack.bleed": "%1$s bled out",
   "death.attack.bleed.player": "%1$s bled out while fighting %2$s",
   "death.attack.void_touched": "%1$s failed to manifest the void",
@@ -44,8 +45,10 @@
   "itemGroup.vaaw_misc": "VAAW Miscellaneous",
   "itemGroup.vaaw_weapons": "VAAW Weapons",
   "itemTooltip.vaaw.oblivion_scythe1": "The start of a legend, use this scythe that 'The Voided One' himself used to shatter all evil in your way!",
-  "itemTooltip.vaaw.void_scythe1": "§5Forged by The Voided One himself to fulfill a purpose after his Oblivion Scythe shattered in ITM,",
+  "itemTooltip.vaaw.void_scythe1": "§5Forged by The Voided One himself to fulfill a purpose after his Oblivion Scythe shattered in ITM.",
   "itemTooltip.vaaw.void_scythe2": "§5now §4YOU §5must carry this purpose and defeat all who stand in your way with this legendary weapon!",
+  "key.vaaw.activate_armour_ability": "Activate Armour Ability",
+  "key.vaaw.activate_weapon_ability": "Activate Weapon Ability",
   "trinkets.slot.vaaw.trinket_1": "Artifact Slot 1",
   "trinkets.slot.vaaw.trinket_2": "Artifact Slot 2",
   "trinkets.slot.vaaw.trinket_3": "Artifact Slot 3"
