@@ -8,15 +8,21 @@ Mako - Creator of ITM via animation and art designing
 
 FlorianDH - Creator of ITM and modpack designer for official VAAW Modpack
 
----Coders---
+---Programmers---
 
-VoidVA - Idea maker and mainly a Java coder but learning Kotlin to help his fellow coders!
+VoidVA - Idea maker and mainly a Java programmer but learning Kotlin to help his fellow programmers!
 
-Nuxlox - Main Kotlin Coder with datagens and helper of all the sorted groups!
+Nuxlox - Main Kotlin programmer with datagens and helper of all the sorted groups!
 
 ---Asset Makers---
 
 VoidVA - Created all the assets (so far)
+
+---Dependencies---  
+
+- nuxon
+- levelz
+- trinkets
 
 ---End---
 
