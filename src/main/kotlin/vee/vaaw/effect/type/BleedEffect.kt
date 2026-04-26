@@ -3,6 +3,7 @@ package vee.vaaw.effect.type
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectCategory
+import net.minecraft.util.Identifier
 import nuxlox.nuxon.damage.DamageHelper
 
 object BleedEffect : StatusEffect(
@@ -13,7 +14,7 @@ object BleedEffect : StatusEffect(
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int) {
         if (entity.world.isClient) return
 
-        val bleedSource = DamageHelper.createDamageSource(entity, "vaaw", "bleed")
+        val bleedSource = DamageHelper.createDamageSource(entity.world, Identifier("vaaw", "bleed"))
 
         val damage = 1f + (amplifier * 0.5f)
         entity.damage(bleedSource, damage)

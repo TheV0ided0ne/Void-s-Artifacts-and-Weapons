@@ -6,6 +6,7 @@ object PacketHelper {
 
     fun initializePackets() {
         ArmourAbilityPacket.registerServerPacket()
+        WeaponAbilityPacket.registerServerPacket()
     }
 
 }

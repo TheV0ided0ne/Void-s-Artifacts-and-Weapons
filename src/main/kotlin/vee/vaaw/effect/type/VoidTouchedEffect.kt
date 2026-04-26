@@ -3,6 +3,7 @@ package vee.vaaw.effect.type
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectCategory
+import net.minecraft.util.Identifier
 import nuxlox.nuxon.damage.DamageHelper
 
 object VoidTouchedEffect : StatusEffect(
@@ -12,7 +13,7 @@ object VoidTouchedEffect : StatusEffect(
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int) {
         if (entity.world.isClient) return
 
-        val voidTouchedSource = DamageHelper.createDamageSource(entity, "vaaw", "void_touched")
+        val voidTouchedSource = DamageHelper.createDamageSource(entity.world, Identifier("vaaw", "void_touched"))
 
         entity.damage(voidTouchedSource, 3.0F)
     }

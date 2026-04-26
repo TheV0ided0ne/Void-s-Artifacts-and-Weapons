@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs
 import vee.vaaw.client.binds.Keybinds
 import vee.vaaw.network.ArmourAbilityPacket
+import vee.vaaw.network.WeaponAbilityPacket
 
 
 object VaawClient : ClientModInitializer {
@@ -20,6 +21,13 @@ object VaawClient : ClientModInitializer {
             while (Keybinds.ACTIVATE_ARMOUR_ABILITY.wasPressed()) {
                 ClientPlayNetworking.send(
                     ArmourAbilityPacket.ACTIVATE_ARMOUR_ABILITY_PACKET,
+                    PacketByteBufs.create()
+                )
+            }
+
+            while (Keybinds.ACTIVATE_WEAPON_ABILITY.wasPressed()) {
+                ClientPlayNetworking.send(
+                    WeaponAbilityPacket.ACTIVATE_WEAPON_ABILITY_PACKET,
                     PacketByteBufs.create()
                 )
             }
