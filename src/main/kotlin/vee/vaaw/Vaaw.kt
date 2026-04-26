@@ -8,6 +8,7 @@ import vee.vaaw.util.ItemHelper
 import software.bernie.geckolib.GeckoLib
 import vee.vaaw.effect.PositiveEffects
 import vee.vaaw.effect.NegativeEffects
+import vee.vaaw.util.PacketHelper
 
 object Vaaw : ModInitializer {
 
@@ -19,13 +20,10 @@ object Vaaw : ModInitializer {
 
         GeckoLib.initialize()
 
-        // Initialize effects
-        PositiveEffects.registerEffects()
-        NegativeEffects.registerEffects()
-
         ItemHelper.initializeItems()
         ItemHelper.initializeItemGroups()
         EffectHelper.initializeEffects()
+        PacketHelper.initializePackets()
     }
 
 }

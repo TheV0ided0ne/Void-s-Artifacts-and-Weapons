@@ -21,13 +21,17 @@ class DamageTypeProvider(
     registriesFuture: CompletableFuture<RegistryWrapper.WrapperLookup>
 ) : FabricDynamicRegistryProvider(output, registriesFuture) {
 
-    val VOID_TOUCHED_DAMAGE: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "void_touched"))
+    val voidTouchedDamage: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "void_touched"))
+    val bleedDamage: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "bleed"))
 
     override fun configure(registries: RegistryWrapper.WrapperLookup, entries: Entries) {
-        entries.add(VOID_TOUCHED_DAMAGE,
+        entries.add(voidTouchedDamage,
             DamageType("void_touched", DamageScaling.NEVER, 0.0f, DamageEffects.FREEZING)
         )
-        println("Added Void Touched Damage Type")
+
+        entries.add(bleedDamage,
+            DamageType("bleed", DamageScaling.NEVER, 0.0f, DamageEffects.HURT)
+        )
     }
 
     override fun getName() = "Damage Types"

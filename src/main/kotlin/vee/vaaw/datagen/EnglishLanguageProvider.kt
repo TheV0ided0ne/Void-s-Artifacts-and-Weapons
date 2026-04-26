@@ -10,10 +10,8 @@ import java.util.Locale.getDefault
  * Whenever you add something with a new translation key, excluding new items/blocks,
  * it should be added in here. This can be done by adding the key under the appropriate function,
  * and then including whatever the key is meant to translate to in the following string. After making
- * any changes to this file, ensure to run the `runDatagen` command with gradle in order to update the
+ * any changes to this file, ensure to run the `runDatagen` command with Gradle in order to update the
  * `en_us.json` translation file.
- *
- * Please add comments between translation groups within the functions below!
  */
 
 class EnglishLanguageProvider(
@@ -80,6 +78,8 @@ class EnglishLanguageProvider(
     fun messages(tBuilder: TranslationBuilder) {
         tBuilder.add("death.attack.void_touched", "%1\$s failed to manifest the void")
         tBuilder.add("death.attack.void_touched.player", "%1\$s failed to manifest the void while fighting %2\$s")
+        tBuilder.add("death.attack.bleed", "%1\$s bled out")
+        tBuilder.add("death.attack.bleed.player", "%1\$s bled out while fighting %2\$s")
     }
 
     fun tooltips(tBuilder: TranslationBuilder) {

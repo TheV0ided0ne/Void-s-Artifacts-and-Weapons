@@ -22,11 +22,7 @@
     ],
     "client": [
       {
-        "value": "vee.vaaw.VaawClient",
-        "adapter": "kotlin"
-      },
-      {
-        "value": "vee.vaaw.client.VaawClientInit",
+        "value": "vee.vaaw.client.VaawClient",
         "adapter": "kotlin"
       }
     ],

@@ -5,7 +5,7 @@ import nuxlox.nuxon.item.ItemRegistrator
 import vee.vaaw.item.material.ToolMaterials
 import vee.vaaw.item.type.AngelicRapierItem
 import vee.vaaw.item.type.OblivionScytheItem
-import vee.vaaw.item.type.UnpwerdOceanscaleItem
+import vee.vaaw.item.type.UnpoweredOceanScaleItem
 import vee.vaaw.item.type.VoidScytheItem
 
 object WeaponItems : ItemRegistrator("vaaw") {
@@ -19,7 +19,7 @@ object WeaponItems : ItemRegistrator("vaaw") {
     val ANGELIC_RAPIER = register("angelic_rapier", AngelicRapierItem(ToolMaterials.ANGELIC_STEEL,
         6, -1.0f, FabricItemSettings()))
 
-    val UNPOWERED_OCEANSCALE_BLADE = register("unpowered_oceanscale_blade", UnpwerdOceanscaleItem(ToolMaterials.SELKARIN_SCALE,
+    val UNPOWERED_OCEANSCALE_BLADE = register("unpowered_oceanscale_blade", UnpoweredOceanScaleItem(ToolMaterials.SELKARIN_SCALE,
             7, -3.1f, FabricItemSettings()))
 
     fun registerItems() {}

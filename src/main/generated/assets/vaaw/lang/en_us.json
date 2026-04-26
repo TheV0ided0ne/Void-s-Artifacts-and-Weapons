@@ -1,4 +1,6 @@
 {
+  "death.attack.bleed": "%1$s bled out",
+  "death.attack.bleed.player": "%1$s bled out while fighting %2$s",
   "death.attack.void_touched": "%1$s failed to manifest the void",
   "death.attack.void_touched.player": "%1$s failed to manifest the void while fighting %2$s",
   "effect.vaaw.angelic_injection": "Angelic Injection",
