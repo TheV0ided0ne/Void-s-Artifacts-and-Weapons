@@ -25,7 +25,7 @@ import java.util.*
                 EntityAttributes.GENERIC_MOVEMENT_SPEED,
                 EntityAttributeModifier(
                     uuid,
-                    "guidemod:movement_speed",
+                    "vaaw:movement_speed",
                     0.1,
                     EntityAttributeModifier.Operation.MULTIPLY_TOTAL
                 )
@@ -33,7 +33,7 @@ import java.util.*
             // If the player has access to ring slots, this will give them an extra one
             SlotAttributes.addSlotModifier(
                 modifiers,
-                "hand/ring",
+                "chest/necklace",
                 uuid,
                 1.0,
                 EntityAttributeModifier.Operation.ADDITION
