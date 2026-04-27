@@ -11,15 +11,16 @@ import net.minecraft.text.Text
 import net.minecraft.util.Identifier
 import vee.vaaw.Vaaw
 import vee.vaaw.item.IngotItems
+import vee.vaaw.item.TrinketItems
 
-object MiscItemGroup {
+object TrinketItemGroup {
 
     val GROUP_KEY: RegistryKey<ItemGroup> = RegistryKey.of(Registries.ITEM_GROUP.getKey(),
-        Identifier(Vaaw.MOD_ID, "vaaw_misc"))
+        Identifier(Vaaw.MOD_ID, "vaaw_trinkets"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
         .icon { ItemStack(IngotItems.VOID_STEEL) }
-        .displayName(Text.translatable("itemGroup.vaaw_misc"))
+        .displayName(Text.translatable("itemGroup.vaaw_trinkets"))
         .build()
 
     fun registerItemGroup() {
@@ -31,6 +32,9 @@ object MiscItemGroup {
     fun addItemGroupItems() {
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+
+            itemGroup.add(TrinketItems.EXAMPLE_TRINKET)
+
         }
 
     }
