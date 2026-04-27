@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider
 import net.minecraft.registry.Registries
 import java.util.Locale.getDefault
-
 /**
  * This class is responsible for providing all the translations for the `en_us` language.
  * Whenever you add something with a new translation key, excluding new items/blocks,
@@ -45,57 +44,8 @@ class EnglishLanguageProvider(
             tBuilder.add(item, name)
         }
 
-        // Runs all the other translation functions.
-        itemGroups(tBuilder)
-        trinketSlots(tBuilder)
-        effects(tBuilder)
-        messages(tBuilder)
-        tooltips(tBuilder)
-        keybinds(tBuilder)
-        categories(tBuilder)
-    }
+        EnglishLanguageMaps.getMaps().forEach { group -> group.forEach { (key, value) -> tBuilder.add(key, value) } }
 
-
-    // Here are all the functions for translation addition! Feel free to add more if needed.
-    fun itemGroups(tBuilder: TranslationBuilder) {
-        tBuilder.add("itemGroup.vaaw_armour", "VAAW Armour")
-        tBuilder.add("itemGroup.vaaw_consumables", "VAAW Consumables")
-        tBuilder.add("itemGroup.vaaw_materials", "VAAW Materials")
-        tBuilder.add("itemGroup.vaaw_misc", "VAAW Miscellaneous")
-        tBuilder.add("itemGroup.vaaw_weapons", "VAAW Weapons")
-    }
-
-    fun trinketSlots(tBuilder: TranslationBuilder) {
-        tBuilder.add("trinkets.slot.vaaw.trinket_1", "Artifact Slot 1")
-        tBuilder.add("trinkets.slot.vaaw.trinket_2", "Artifact Slot 2")
-        tBuilder.add("trinkets.slot.vaaw.trinket_3", "Artifact Slot 3")
-    }
-
-    fun effects(tBuilder: TranslationBuilder) {
-        tBuilder.add("effect.vaaw.void_touched", "Void Touched")
-        tBuilder.add("effect.vaaw.angelic_injection", "Angelic Injection")
-    }
-
-    fun messages(tBuilder: TranslationBuilder) {
-        tBuilder.add("death.attack.void_touched", "%1\$s failed to manifest the void")
-        tBuilder.add("death.attack.void_touched.player", "%1\$s failed to manifest the void while fighting %2\$s")
-        tBuilder.add("death.attack.bleed", "%1\$s bled out")
-        tBuilder.add("death.attack.bleed.player", "%1\$s bled out while fighting %2\$s")
-    }
-
-    fun tooltips(tBuilder: TranslationBuilder) {
-        tBuilder.add("itemTooltip.vaaw.void_scythe1", "§5Forged by The Voided One himself to fulfill a purpose after his Oblivion Scythe shattered in ITM.")
-        tBuilder.add("itemTooltip.vaaw.void_scythe2", "§5now §4YOU §5must carry this purpose and defeat all who stand in your way with this legendary weapon!")
-        tBuilder.add("itemTooltip.vaaw.oblivion_scythe1", "The start of a legend, use this scythe that 'The Voided One' himself used to shatter all evil in your way!")
-    }
-
-    fun keybinds(tBuilder: TranslationBuilder) {
-        tBuilder.add("key.vaaw.activate_armour_ability", "Activate Armour Ability")
-        tBuilder.add("key.vaaw.activate_weapon_ability", "Activate Weapon Ability")
-    }
-
-    fun categories(tBuilder: TranslationBuilder) {
-        tBuilder.add("category.vaaw.general", "VAAW Keybinds")
     }
 
 }
