@@ -12,7 +12,7 @@ import net.minecraft.item.ItemStack
 import java.util.*
 
 
-    class ExampleTrinket(settings: Settings) : TrinketItem(settings) {
+    class SwiftnessTrinket(settings: Settings) : TrinketItem(settings) {
         override fun getModifiers(
             stack: ItemStack,
             slot: SlotReference,
@@ -20,23 +20,15 @@ import java.util.*
             uuid: UUID?
         ): Multimap<EntityAttribute, EntityAttributeModifier> {
             val modifiers = super.getModifiers(stack, slot, entity, uuid)
-            // +10% movement speed
+            // +20% movement speed
             modifiers.put(
                 EntityAttributes.GENERIC_MOVEMENT_SPEED,
                 EntityAttributeModifier(
                     uuid,
                     "vaaw:movement_speed",
-                    0.1,
+                    0.2,
                     EntityAttributeModifier.Operation.MULTIPLY_TOTAL
                 )
-            )
-            // If the player has access to ring slots, this will give them an extra one
-            SlotAttributes.addSlotModifier(
-                modifiers,
-                "chest/necklace",
-                uuid,
-                1.0,
-                EntityAttributeModifier.Operation.ADDITION
             )
             return modifiers
         }

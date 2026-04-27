@@ -1,4 +1,4 @@
-package vee.vaaw.item.type
+package vee.vaaw.item.type.consumable
 
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.player.PlayerEntity
@@ -14,11 +14,13 @@ class AngelicSyringeItem(settings: Settings) : Item(settings) {
     override fun use(world: World, user: PlayerEntity, hand: Hand): TypedActionResult<ItemStack> {
         val stack = user.getStackInHand(hand)
 
-        user.addStatusEffect(StatusEffectInstance(
-            PositiveEffects.ANGELIC_INJECTION,
-            40,
-            0
-        ))
+        user.addStatusEffect(
+            StatusEffectInstance(
+                PositiveEffects.ANGELIC_INJECTION,
+                40,
+                0
+            )
+        )
 
         stack.decrement(1)
         user.itemCooldownManager.set(this, 100)

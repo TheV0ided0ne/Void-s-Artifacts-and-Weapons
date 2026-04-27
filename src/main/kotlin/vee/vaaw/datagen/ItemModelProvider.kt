@@ -64,6 +64,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
     fun trinketItems(modelGen: ItemModelGenerator) {
 
         modelGen.register(TrinketItems.EXAMPLE_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.BLANK_TRINKET, Models.GENERATED)
 
     }
 

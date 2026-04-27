@@ -34,6 +34,20 @@ object TrinketItemGroup {
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
 
             itemGroup.add(TrinketItems.EXAMPLE_TRINKET)
+            itemGroup.add(TrinketItems.BLANK_TRINKET)
+            itemGroup.add(TrinketItems.HEART_OF_THE_SIBLINGS)
+            itemGroup.add(TrinketItems.EYE_OF_THE_VOID)
+            itemGroup.add(TrinketItems.BADGE_OF_THE_ANGELIC_GUARD)
+            itemGroup.add(TrinketItems.SOUL_TIED_RING)
+            itemGroup.add(TrinketItems.SOULS_TRINKET)
+            itemGroup.add(TrinketItems.RAGE_TRINKET)
+            itemGroup.add(TrinketItems.BALANCE_TRINKET)
+            itemGroup.add(TrinketItems.SILENCE_TRINKET)
+            itemGroup.add(TrinketItems.PEACE_TRINKET)
+            itemGroup.add(TrinketItems.BRAVERY_TRINKET)
+            itemGroup.add(TrinketItems.WRATH_TRINKET)
+            itemGroup.add(TrinketItems.DEVOTION_TRINKET)
+            itemGroup.add(TrinketItems.SWIFTNESS_TRINKET)
 
         }
 
