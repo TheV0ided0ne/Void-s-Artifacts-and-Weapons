@@ -57,11 +57,9 @@ Whether you're a seasoned adventurer or a newcomer to the Voided world, ITM give
 
 ## 📦 Dependencies
 
-Make sure the following mods are installed before loading ITM:
+Make sure the following mod is installed before loading ITM:
 
-- [`nuxon`](https://github.com/)
-- [`levelz`](https://modrinth.com/)
-- [`trinkets`](https://modrinth.com/)
+- [`nuxon`](https://github.com/nuxl0x/nuxon)
 
 ---
 
