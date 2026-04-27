@@ -1,4 +1,4 @@
-package vee.vaaw.item.type
+package vee.vaaw.item.type.weapon
 
 import net.minecraft.item.SwordItem
 import net.minecraft.item.ToolMaterial

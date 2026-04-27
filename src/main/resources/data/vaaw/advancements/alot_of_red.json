@@ -4,7 +4,7 @@
       "item": "minecraft:redstone"
     },
     "title": { "text": "Bloodied but Unbroken" },
-    "description": { "text": "Survive being inflicted with Bleed" },
+    "description": { "text": "Become afflicted with the bleed effect and become hurt by it" },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

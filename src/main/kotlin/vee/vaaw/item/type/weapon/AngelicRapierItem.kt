@@ -1,4 +1,4 @@
-package vee.vaaw.item.type
+package vee.vaaw.item.type.weapon
 
 import net.minecraft.entity.LivingEntity
 import net.minecraft.item.ItemStack

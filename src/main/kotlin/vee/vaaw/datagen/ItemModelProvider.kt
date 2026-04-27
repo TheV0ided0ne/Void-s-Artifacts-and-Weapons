@@ -8,6 +8,7 @@ import net.minecraft.data.client.Models
 import vee.vaaw.item.ConsumableItems
 import vee.vaaw.item.IngotItems
 import vee.vaaw.item.MaterialItems
+import vee.vaaw.item.TrinketItems
 
 class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) {
 
@@ -17,7 +18,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
 
     /**
      * For items that use the standard handheld appearance, you are able to add them as an entry here in order to
-     * automatically generate their file within `assets/vaw/models/item`. The item texture must share the same name
+     * automatically generate their file within `assets/vaaw/models/item`. The item texture must share the same name
      * as the item ingame.
      *
      * It may be prudent to include functions within this file in the future.
@@ -28,6 +29,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
         consumableItems(itemModelGenerator)
         ingotItems(itemModelGenerator)
         materialItems(itemModelGenerator)
+        trinketItems(itemModelGenerator)
 
     }
 
@@ -56,6 +58,13 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
         modelGen.register(MaterialItems.REINFORCED_STICK, Models.GENERATED)
         modelGen.register(MaterialItems.SELKARIN_SCALE, Models.GENERATED)
         modelGen.register(MaterialItems.ANGEL_HEART, Models.GENERATED)
+
+    }
+
+    fun trinketItems(modelGen: ItemModelGenerator) {
+
+        modelGen.register(TrinketItems.EXAMPLE_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.BLANK_TRINKET, Models.GENERATED)
 
     }
 

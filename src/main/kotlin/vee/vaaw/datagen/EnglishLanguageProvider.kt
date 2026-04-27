@@ -61,7 +61,7 @@ class EnglishLanguageProvider(
         tBuilder.add("itemGroup.vaaw_armour", "VAAW Armour")
         tBuilder.add("itemGroup.vaaw_consumables", "VAAW Consumables")
         tBuilder.add("itemGroup.vaaw_materials", "VAAW Materials")
-        tBuilder.add("itemGroup.vaaw_misc", "VAAW Miscellaneous")
+        tBuilder.add("itemGroup.vaaw_trinkets", "VAAW Trinkets")
         tBuilder.add("itemGroup.vaaw_weapons", "VAAW Weapons")
     }
 
@@ -70,7 +70,6 @@ class EnglishLanguageProvider(
         tBuilder.add("trinkets.slot.vaaw.trinket_2", "Artifact Slot 2")
         tBuilder.add("trinkets.slot.vaaw.trinket_3", "Artifact Slot 3")
     }
-
     fun effects(tBuilder: TranslationBuilder) {
         tBuilder.add("effect.vaaw.void_touched", "Void Touched")
         tBuilder.add("effect.vaaw.angelic_injection", "Angelic Injection")

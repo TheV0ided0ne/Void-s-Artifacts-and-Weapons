@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "vaaw:example_trinket",
+    "vaaw:blank_trinket",
+    "vaaw:heart_of_the_siblings",
+    "vaaw:eye_of_the_void",
+    "vaaw:badge_of_the_angelic_guard",
+    "vaaw:soul_tied_ring",
+    "vaaw:rage_trinket",
+    "vaaw:balance_trinket",
+    "vaaw:silence_trinket",
+    "vaaw:swiftness_trinket",
+    "vaaw:peace_trinket",
+    "vaaw:bravery_trinket",
+    "vaaw:souls_trinket",
+    "vaaw:wrath_trinket",
+    "vaaw:devotion_trinket"
+  ]
+}

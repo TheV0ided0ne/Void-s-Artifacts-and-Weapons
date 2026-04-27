@@ -4,12 +4,12 @@ import vee.vaaw.item.ArmourItems
 import vee.vaaw.item.ConsumableItems
 import vee.vaaw.item.IngotItems
 import vee.vaaw.item.MaterialItems
-import vee.vaaw.item.MiscItems
+import vee.vaaw.item.TrinketItems
 import vee.vaaw.item.WeaponItems
 import vee.vaaw.item.group.ArmourItemGroup
 import vee.vaaw.item.group.ConsumablesItemGroup
 import vee.vaaw.item.group.MaterialsItemGroup
-import vee.vaaw.item.group.MiscItemGroup
+import vee.vaaw.item.group.TrinketItemGroup
 import vee.vaaw.item.group.WeaponsItemGroup
 
 object ItemHelper {
@@ -19,7 +19,7 @@ object ItemHelper {
         ConsumableItems.registerItems()
         IngotItems.registerItems()
         MaterialItems.registerItems()
-        MiscItems.registerItems()
+        TrinketItems.registerItems()
         WeaponItems.registerItems()
     }
 
@@ -27,7 +27,7 @@ object ItemHelper {
         ArmourItemGroup.registerGroup()
         ConsumablesItemGroup.registerGroup()
         MaterialsItemGroup.registerGroup()
-        MiscItemGroup.registerGroup()
+        TrinketItemGroup.registerGroup()
         WeaponsItemGroup.registerGroup()
     }
 
