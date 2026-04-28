@@ -63,12 +63,6 @@ Make sure the following mod is installed before loading ITM:
 
 - [`nuxon`](https://github.com/nuxl0x/nuxon)
 
-- So far the only way to install nuxon is by using intellij IDEA.
-
-  1. pull the repo into Intellij
-  2. do this command once the folder is fully compiled: ./gradlew build
-  3. look inside the libs folder to obtain the .jar file for usage!
-
 ---
 
 <div align="center">
