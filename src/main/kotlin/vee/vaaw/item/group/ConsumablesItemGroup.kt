@@ -34,6 +34,10 @@ object ConsumablesItemGroup {
             itemGroup.add(ConsumableItems.ANGELIC_SYRINGE)
         }
 
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(ConsumableItems.SINGU_APPLE)
+        }
+
     }
 
     fun registerGroup() {

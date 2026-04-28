@@ -20,7 +20,8 @@ class EnglishLanguageProvider(
 
     // Add items that you don't want to get auto named here!
     val uniqueItems = mapOf(
-        "commas_item" to "Comma's Item"
+        "commas_item" to "Comma's Item",
+        "singu_apple" to "Singularity Apple"
     )
 
     val allItems = Registries.ITEM.ids

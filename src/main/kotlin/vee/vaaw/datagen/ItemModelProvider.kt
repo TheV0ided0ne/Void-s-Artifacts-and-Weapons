@@ -36,6 +36,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
     fun consumableItems(modelGen: ItemModelGenerator) {
 
         modelGen.register(ConsumableItems.ANGELIC_SYRINGE, Models.GENERATED)
+        modelGen.register(ConsumableItems.SINGU_APPLE, Models.GENERATED)
 
     }
 
@@ -65,6 +66,19 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
 
         modelGen.register(TrinketItems.EXAMPLE_TRINKET, Models.GENERATED)
         modelGen.register(TrinketItems.BLANK_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.HEART_OF_THE_SIBLINGS, Models.GENERATED)
+        modelGen.register(TrinketItems.EYE_OF_THE_VOID, Models.GENERATED)
+        modelGen.register(TrinketItems.BADGE_OF_THE_ANGELIC_GUARD, Models.GENERATED)
+        modelGen.register(TrinketItems.SOUL_TIED_RING, Models.GENERATED)
+        modelGen.register(TrinketItems.SOULS_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.WRATH_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.BALANCE_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.BRAVERY_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.DEVOTION_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.PEACE_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.RAGE_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.SILENCE_TRINKET, Models.GENERATED)
+        modelGen.register(TrinketItems.SWIFTNESS_TRINKET, Models.GENERATED)
 
     }
 
