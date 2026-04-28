@@ -18,6 +18,8 @@
 
 </div>
 
+## Completion: 50%
+
 ---
 
 ## 🌌 About
