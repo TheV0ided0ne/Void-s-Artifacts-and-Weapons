@@ -3,6 +3,9 @@ package vee.vaaw.datagen
 import vee.vaaw.util.text.MessageText
 import vee.vaaw.util.text.TooltipText
 
+/**
+ * [EnglishLanguageMaps] is where all the data generation binds are actually declared.
+ */
 object EnglishLanguageMaps {
 
     val itemGroups = mapOf(
