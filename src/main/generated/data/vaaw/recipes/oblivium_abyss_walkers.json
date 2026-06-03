@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": {
+      "item": "vaaw:oblivium_ingot"
+    }
+  },
+  "pattern": [
+    "O O",
+    "O O"
+  ],
+  "result": {
+    "item": "vaaw:oblivium_abyss_walkers"
+  },
+  "show_notification": true
+}

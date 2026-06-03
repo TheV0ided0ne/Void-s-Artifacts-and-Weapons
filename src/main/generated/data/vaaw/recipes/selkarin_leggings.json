@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "vaaw:selkarin_scale"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "item": "vaaw:selkarin_leggings"
+  },
+  "show_notification": true
+}

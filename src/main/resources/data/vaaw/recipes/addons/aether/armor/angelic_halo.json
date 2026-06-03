@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "A A"
+  ],
+  "key": {
+    "A": { "item": "vaaw:angelic_remnant" }
+  },
+  "result": {
+    "item": "vaaw:angelic_halo",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "V": {
+      "item": "vaaw:void_steel"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "V V",
+    "V V"
+  ],
+  "result": {
+    "item": "vaaw:voided_singularity_thighguards"
+  },
+  "show_notification": true
+}

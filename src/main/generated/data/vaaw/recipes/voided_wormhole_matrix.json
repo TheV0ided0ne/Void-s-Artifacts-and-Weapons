@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "V": {
+      "item": "vaaw:void_steel"
+    }
+  },
+  "pattern": [
+    "V V",
+    "VVV",
+    "VVV"
+  ],
+  "result": {
+    "item": "vaaw:voided_wormhole_matrix"
+  },
+  "show_notification": true
+}

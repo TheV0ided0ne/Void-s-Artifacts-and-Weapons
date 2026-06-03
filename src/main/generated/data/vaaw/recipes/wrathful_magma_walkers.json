@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "vaaw:wrath_steel"
+    }
+  },
+  "pattern": [
+    "W W",
+    "W W"
+  ],
+  "result": {
+    "item": "vaaw:wrathful_magma_walkers"
+  },
+  "show_notification": true
+}

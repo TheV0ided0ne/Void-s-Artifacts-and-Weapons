@@ -34,7 +34,7 @@ object MaterialsItemGroup {
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             // IngotItems
             itemGroup.add(IngotItems.VOID_STEEL)
-            itemGroup.add(IngotItems.OBLIVIUM_INGOT)
+            itemGroup.add(IngotItems.OBLIVIUM_STEEL)
             itemGroup.add(IngotItems.WRATH_STEEL)
             itemGroup.add(IngotItems.ITRIOCH_INGOT)
             itemGroup.add(IngotItems.SKYLINE_INGOT)
@@ -46,6 +46,7 @@ object MaterialsItemGroup {
             itemGroup.add(MaterialItems.ANGELIC_REMNANT)
             itemGroup.add(MaterialItems.REINFORCED_STICK)
             itemGroup.add(MaterialItems.SELKARIN_SCALE)
+            itemGroup.add(MaterialItems.ANGEL_HEART)
         }
 
     }

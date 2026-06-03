@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "vaaw:skyline_ingot"
+    }
+  },
+  "pattern": [
+    "KKK",
+    "K K",
+    "K K"
+  ],
+  "result": {
+    "item": "vaaw:skyline_leggings"
+  },
+  "show_notification": true
+}

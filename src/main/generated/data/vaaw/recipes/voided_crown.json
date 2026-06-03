@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "V": {
+      "item": "vaaw:void_steel"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "V V"
+  ],
+  "result": {
+    "item": "vaaw:voided_crown"
+  },
+  "show_notification": true
+}

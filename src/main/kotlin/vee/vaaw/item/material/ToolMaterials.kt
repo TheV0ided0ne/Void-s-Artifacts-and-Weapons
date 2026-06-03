@@ -18,7 +18,7 @@ enum class ToolMaterials(
         Ingredient.ofItems(IngotItems.VOID_STEEL)),
 
     OBLIVIUM(2500, 7.0f, 6.0f, 3, 25,
-        Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT)),
+        Ingredient.ofItems(IngotItems.OBLIVIUM_STEEL)),
 
     ANGELIC_REMNANT(3500, 8.0f, 6.0f, 4, 35,
         Ingredient.ofItems(MaterialItems.ANGELIC_REMNANT)),

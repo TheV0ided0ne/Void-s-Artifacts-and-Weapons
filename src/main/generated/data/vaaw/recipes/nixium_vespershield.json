@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "vaaw:nixium_ingot"
+    }
+  },
+  "pattern": [
+    "N N",
+    "NNN",
+    "NNN"
+  ],
+  "result": {
+    "item": "vaaw:nixium_vespershield"
+  },
+  "show_notification": true
+}

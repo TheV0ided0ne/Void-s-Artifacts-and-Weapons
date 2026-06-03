@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "vaaw:skyline_ingot"
+    }
+  },
+  "pattern": [
+    "K K",
+    "K K"
+  ],
+  "result": {
+    "item": "vaaw:skyline_boots"
+  },
+  "show_notification": true
+}

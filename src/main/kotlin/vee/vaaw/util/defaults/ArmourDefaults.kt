@@ -10,7 +10,7 @@ data class ArmourDefaults(
     val wSteel: ArmourMaterials = ArmourMaterials.WRATH_STEEL_INGOT,
     val aSteel: ArmourMaterials = ArmourMaterials.ANGELIC_REMNANT,
     val iIngot: ArmourMaterials = ArmourMaterials.ITRIOCH_INGOT,
-    val oIngot: ArmourMaterials = ArmourMaterials.OBLIVIUM_INGOT,
+    val oIngot: ArmourMaterials = ArmourMaterials.OBLIVIUM_STEEL,
     val nIngot: ArmourMaterials = ArmourMaterials.NIXIUM_INGOT,
     val sIngot: ArmourMaterials = ArmourMaterials.SKYLINE_INGOT,
     val sScale: ArmourMaterials = ArmourMaterials.SELKARIN_SCALE,

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "vaaw:nixium_ingot"
+    }
+  },
+  "pattern": [
+    "N N",
+    "N N"
+  ],
+  "result": {
+    "item": "vaaw:nixium_twilight_soles"
+  },
+  "show_notification": true
+}

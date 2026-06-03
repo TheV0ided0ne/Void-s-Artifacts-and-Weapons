@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "vaaw:nixium_ingot"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "N N",
+    "N N"
+  ],
+  "result": {
+    "item": "vaaw:nixium_penumbra"
+  },
+  "show_notification": true
+}

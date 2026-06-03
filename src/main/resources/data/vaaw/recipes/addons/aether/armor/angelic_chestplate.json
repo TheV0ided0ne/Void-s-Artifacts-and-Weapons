@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A A",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": { "item": "vaaw:angelic_remnant" }
+  },
+  "result": {
+    "item": "vaaw:angelic_chestplate",
+    "count": 1
+  },
+  "show_notification": true
+}

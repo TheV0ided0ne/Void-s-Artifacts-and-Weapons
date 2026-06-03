@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oblivium_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vaaw:oblivium_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vaaw:oblivium_erasure_gaze"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_oblivium_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vaaw:oblivium_erasure_gaze"
+    ]
+  },
+  "sends_telemetry_event": false
+}

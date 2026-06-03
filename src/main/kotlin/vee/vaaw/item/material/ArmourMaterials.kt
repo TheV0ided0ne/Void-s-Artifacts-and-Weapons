@@ -42,8 +42,8 @@ enum class ArmourMaterials(
         20, Ingredient.ofItems(IngotItems.NIXIUM_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_CHAIN
     ),
 
-    OBLIVIUM_INGOT(30, intArrayOf(6, 10, 8, 6), 1.0f, 0.2f,
-        30, Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND
+    OBLIVIUM_STEEL(30, intArrayOf(6, 10, 8, 6), 1.0f, 0.2f,
+        30, Ingredient.ofItems(IngotItems.OBLIVIUM_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND
     ),
 
     SKYLINE_INGOT(25, intArrayOf(5, 7, 6, 4), 0.2f, 0.0f,

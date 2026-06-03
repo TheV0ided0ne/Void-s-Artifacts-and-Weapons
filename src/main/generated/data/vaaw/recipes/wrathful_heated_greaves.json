@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "vaaw:wrath_steel"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W W",
+    "W W"
+  ],
+  "result": {
+    "item": "vaaw:wrathful_heated_greaves"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "V": {
+      "item": "vaaw:void_steel"
+    }
+  },
+  "pattern": [
+    "V V",
+    "V V"
+  ],
+  "result": {
+    "item": "vaaw:voided_anchor_boots"
+  },
+  "show_notification": true
+}

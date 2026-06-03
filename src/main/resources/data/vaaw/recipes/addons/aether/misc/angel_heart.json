@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GBG",
+    "BVB",
+    "GBG"
+  ],
+  "key": {
+    "V": { "item": "aether:victory_medal" },
+    "G": { "item": "aether:golden_aercloud" },
+    "B": { "item": "aether:enchanted_berry" }
+  },
+  "result": {
+    "item": "vaaw:angel_heart",
+    "count": 1
+  },
+  "show_notification": true
+}

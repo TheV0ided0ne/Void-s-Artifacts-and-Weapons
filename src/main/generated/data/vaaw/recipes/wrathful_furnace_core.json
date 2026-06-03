@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "vaaw:wrath_steel"
+    }
+  },
+  "pattern": [
+    "W W",
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "item": "vaaw:wrathful_furnace_core"
+  },
+  "show_notification": true
+}

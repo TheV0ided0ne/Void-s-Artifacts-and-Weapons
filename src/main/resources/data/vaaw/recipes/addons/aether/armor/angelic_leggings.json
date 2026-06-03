@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "A A",
+    "A A"
+  ],
+  "key": {
+    "A": { "item": "vaaw:angelic_remnant" }
+  },
+  "result": {
+    "item": "vaaw:angelic_leggings",
+    "count": 1
+  },
+  "show_notification": true
+}

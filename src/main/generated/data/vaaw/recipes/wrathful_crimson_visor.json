@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "W": {
+      "item": "vaaw:wrath_steel"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W W"
+  ],
+  "result": {
+    "item": "vaaw:wrathful_crimson_visor"
+  },
+  "show_notification": true
+}

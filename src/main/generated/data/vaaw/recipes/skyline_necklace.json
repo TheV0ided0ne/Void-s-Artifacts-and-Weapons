@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "vaaw:skyline_ingot"
+    }
+  },
+  "pattern": [
+    "KKK",
+    "K K"
+  ],
+  "result": {
+    "item": "vaaw:skyline_necklace"
+  },
+  "show_notification": true
+}

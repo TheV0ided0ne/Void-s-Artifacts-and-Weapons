@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GCG",
+    "CHC",
+    "GCG"
+  ],
+  "key": {
+    "C": { "item": "aether:cold_aercloud"},
+    "G": { "item": "aether:golden_aercloud" },
+    "H": { "item": "vaaw:angel_heart"}
+  },
+  "result": {
+    "item": "vaaw:angelic_syringe",
+    "count": 2
+  },
+  "show_notification": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_itrioch_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vaaw:itrioch_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "vaaw:itrioch_spore_striders"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_itrioch_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "vaaw:itrioch_spore_striders"
+    ]
+  },
+  "sends_telemetry_event": false
+}
