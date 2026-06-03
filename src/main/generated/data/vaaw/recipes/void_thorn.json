@@ -10,9 +10,9 @@
     }
   },
   "pattern": [
-    " C ",
-    "CVC",
-    " C "
+    " V ",
+    "VCV",
+    " V "
   ],
   "result": {
     "item": "vaaw:void_thorn"

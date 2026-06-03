@@ -18,20 +18,20 @@ enum class ArmourMaterials(
     private val equipSound: SoundEvent
 ): ArmorMaterial {
 
-    VOID_STEEL(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
+    VOID_STEEL(37, intArrayOf(8, 10, 10, 8), 3.0f, 0.6f,
         35, Ingredient.ofItems(IngotItems.VOID_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     ),
 
-    SELKARIN_SCALE(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
+    SELKARIN_SCALE(37, intArrayOf(6, 9, 8, 7), 3.0f, 0.3f,
         28, Ingredient.ofItems(MaterialItems.SELKARIN_SCALE), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     ),
 
-    WRATH_STEEL_INGOT(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
+    WRATH_STEEL_INGOT(37, intArrayOf(7, 9, 8, 5), 3.0f, 0.4f,
         25, Ingredient.ofItems(IngotItems.WRATH_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     ),
 
-    ANGELIC_STEEL(37, intArrayOf(5, 7, 9, 5), 3.0f, 0.1f,
-    25, Ingredient.ofItems(IngotItems.ANGELIC_STEEL), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
+    ANGELIC_STEEL(37, intArrayOf(7, 8, 8, 5), 3.0f, 0.4f,
+    25, Ingredient.ofItems(MaterialItems.ANGELIC_REMNANT), SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE
     );
 
     companion object {

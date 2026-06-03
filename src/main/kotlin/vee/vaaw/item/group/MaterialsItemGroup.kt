@@ -41,7 +41,8 @@ object MaterialsItemGroup {
 
             // MaterialItems
             itemGroup.add(MaterialItems.VOID_CRYSTAL)
-            itemGroup.add(MaterialItems.VOID_THORN)
+            itemGroup.add(MaterialItems.VOID_VINE)
+            itemGroup.add(MaterialItems.ANGELIC_REMNANT)
             itemGroup.add(MaterialItems.REINFORCED_STICK)
             itemGroup.add(MaterialItems.SELKARIN_SCALE)
         }

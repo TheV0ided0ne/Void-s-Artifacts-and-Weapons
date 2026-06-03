@@ -8,21 +8,22 @@
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║        I N T O   T H E   M U L T I V E R S E        ║
-║                                                      ║
+║    V E Y R O N  A S H E  V A L E  P R E S E N T S    ║
+║------------------------------------------------------║
+║            V O I D ' S  A R T I F A C T S            ║
+║                 A N D  W E A P O N S                 ║
 ╚══════════════════════════════════════════════════════╝
 ```
 
-*A mod born from the upcoming show — venture beyond the void.*
+*A mod born from the upcoming show 'Into The Multiverse' — venture beyond the void.*
 
 </div>
 
-## Completion: 50%
+## Completion: 30%
 
 ---
 
-## 🌌 About
+## About
 
 **Into The Multiverse (ITM)** is a mod inspired by the show of the same name, currently in production. It introduces items and mechanics designed to help you survive and thrive through the brutal challenges of:
 
@@ -32,36 +33,48 @@ Whether you're a seasoned adventurer or a newcomer to the Voided world, ITM give
 
 ---
 
-## 👥 Credits
+## Credits
 
-### 🎬 Main Team
+### Main Team
 
-| Name | Role |
-|------|------|
-| **VoidVA** | Creator of ITM |
+| Name | Role                                |
+|------|-------------------------------------|
+| **VoidVA** | Creator of ITM - Voice Acting and Ideas |
 | **Mako** | Co-creator — Animation & Art Design |
-| **FlorianDH** | Co-creator — Modpack Designer for the official VAAW Modpack |
+| **FlorianDH** | Co-creator — Voice Actor            |
 
-### 💻 Programmers
+### Programmers
 
-| Name | Specialty |
-|------|-----------|
-| **VoidVA** | Idea lead & Java programmer *(learning Kotlin!)* |
+| Name | Specialty                                              |
+|------|--------------------------------------------------------|
+| **VoidVA** | Idea lead - Kotlin programmer                          |
 | **Nuxlox** | Main Kotlin programmer — datagens & group organisation |
+| **Nova** | Main asset maker and Helper                            |
 
-### 🎨 Asset Makers
+### Asset Makers and Inspiration
 
-| Name | Contribution |
-|------|-------------|
-| **VoidVA** | All assets *(so far!)* |
+| Name | Contribution      |
+|------|-------------------|
+| **VoidVA** | Asset inspiration |
+| **Nova** | Primary Asset Creator |
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Make sure the following mod is installed before loading ITM:
 
 - [`nuxon`](https://github.com/nuxl0x/nuxon)
+
+## Addons
+
+All mods listed below are available with VAAW and have some interactions, it could be simple leveling or recipes!
+
+(P.S I placed the GitHub links only here so that I didn't have to seive through modrinth and curseforge for the mods)
+
+- [`The Aether - Recipes`](https://github.com/The-Aether-Team/The-Aether)
+- [`Better Combat - Combat`](https://github.com/ZsoltMolnarrr/BetterCombat)
+- [`Dungeon Now Loading - LevelZ`](https://github.com/hexnowloading/DungeonNowLoading)
 
 ---
 

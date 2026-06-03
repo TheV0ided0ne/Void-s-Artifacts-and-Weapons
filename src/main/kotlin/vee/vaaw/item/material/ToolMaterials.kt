@@ -14,19 +14,19 @@ enum class ToolMaterials(
     private val repairIngredient: Ingredient
 ) : ToolMaterial {
 
-    VOID_STEEL(4000, 9.0f, 5.0f, 4, 35,
+    VOID_STEEL(4000, 9.0f, 10.0f, 4, 35,
         Ingredient.ofItems(IngotItems.VOID_STEEL)),
 
-    OBLIVIUM(2500, 7.0f, 3.0f, 3, 25,
+    OBLIVIUM(2500, 7.0f, 6.0f, 3, 25,
         Ingredient.ofItems(IngotItems.OBLIVIUM_INGOT)),
 
-    ANGELIC_STEEL(3500, 8.0f, 3.0f, 4, 35,
-        Ingredient.ofItems(IngotItems.ANGELIC_STEEL)),
+    ANGELIC_REMNANT(3500, 8.0f, 6.0f, 4, 35,
+        Ingredient.ofItems(MaterialItems.ANGELIC_REMNANT)),
 
-    SELKARIN_SCALE(3750, 8.5f, 4.0f, 4, 35,
+    SELKARIN_SCALE(3750, 8.5f, 8.0f, 4, 35,
         Ingredient.ofItems(MaterialItems.SELKARIN_SCALE)),
 
-    WRATH_STEEL(3750, 8.7f, 4.0f, 4, 15,
+    WRATH_STEEL(3750, 8.7f, 8.0f, 4, 15,
         Ingredient.ofItems(IngotItems.WRATH_STEEL));
 
     override fun getDurability() = durability

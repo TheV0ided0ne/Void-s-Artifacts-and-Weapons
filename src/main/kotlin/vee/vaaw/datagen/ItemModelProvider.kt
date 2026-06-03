@@ -45,7 +45,6 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
     fun ingotItems(modelGen: ItemModelGenerator) {
 
         modelGen.register(IngotItems.VOID_STEEL, Models.GENERATED)
-        modelGen.register(IngotItems.ANGELIC_STEEL, Models.GENERATED)
         modelGen.register(IngotItems.WRATH_STEEL, Models.GENERATED)
         modelGen.register(IngotItems.SKYLINE_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.ITRIOCH_INGOT, Models.GENERATED)
@@ -57,7 +56,8 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
     fun materialItems(modelGen: ItemModelGenerator) {
 
         modelGen.register(MaterialItems.VOID_CRYSTAL, Models.GENERATED)
-        modelGen.register(MaterialItems.VOID_THORN, Models.GENERATED)
+        modelGen.register(MaterialItems.VOID_VINE, Models.GENERATED)
+        modelGen.register(MaterialItems.ANGELIC_REMNANT, Models.GENERATED)
         modelGen.register(MaterialItems.REINFORCED_STICK, Models.GENERATED)
         modelGen.register(MaterialItems.SELKARIN_SCALE, Models.GENERATED)
         modelGen.register(MaterialItems.ANGEL_HEART, Models.GENERATED)

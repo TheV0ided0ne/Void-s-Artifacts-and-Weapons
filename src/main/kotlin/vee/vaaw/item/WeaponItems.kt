@@ -19,7 +19,7 @@ object WeaponItems : ItemRegistrator("vaaw") {
     val OBLIVIUM_SCYTHE = register("scythe_of_oblivion", OblivionScytheItem(ToolMaterials.OBLIVIUM,
         6, -3.2f, FabricItemSettings()))
 
-    val ANGELIC_RAPIER = register("angelic_rapier", AngelicRapierItem(ToolMaterials.ANGELIC_STEEL,
+    val ANGELIC_RAPIER = register("angelic_rapier", AngelicRapierItem(ToolMaterials.ANGELIC_REMNANT,
         6, -1.0f, FabricItemSettings()))
 
     val POWERED_OCEANSCALE_BLADE = register("powered_oceanscale_blade", PoweredOceanScaleItem(ToolMaterials.SELKARIN_SCALE,
@@ -28,7 +28,7 @@ object WeaponItems : ItemRegistrator("vaaw") {
     val UNPOWERED_OCEANSCALE_BLADE = register("unpowered_oceanscale_blade", UnpoweredOceanScaleItem(ToolMaterials.SELKARIN_SCALE,
         7, -3.1f, FabricItemSettings()))
 
-    val ANGELIC_SPEAR = register("angelic_spear", AngelicSpearItem(ToolMaterials.ANGELIC_STEEL,
+    val ANGELIC_SPEAR = register("angelic_spear", AngelicSpearItem(ToolMaterials.ANGELIC_REMNANT,
         7, -3.1f, FabricItemSettings()))
 
     val WRATH_GLAIVE = register("wrath_glaive", WrathGlaiveItem(ToolMaterials.WRATH_STEEL,
