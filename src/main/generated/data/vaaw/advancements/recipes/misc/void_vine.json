@@ -3,7 +3,7 @@
   "criteria": {
     "has_the_recipe": {
       "conditions": {
-        "recipe": "vaaw:void_thorn"
+        "recipe": "vaaw:void_vine"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vaaw:void_thorn"
+      "vaaw:void_vine"
     ]
   },
   "sends_telemetry_event": false

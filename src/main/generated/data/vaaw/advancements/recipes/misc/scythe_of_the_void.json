@@ -7,12 +7,12 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_void_thorn": {
+    "has_void_vine": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vaaw:void_thorn"
+              "vaaw:void_vine"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_void_thorn",
+      "has_void_vine",
       "has_the_recipe"
     ]
   ],

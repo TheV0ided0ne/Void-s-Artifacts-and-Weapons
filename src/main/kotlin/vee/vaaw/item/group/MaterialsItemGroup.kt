@@ -35,6 +35,7 @@ object MaterialsItemGroup {
             // IngotItems
             itemGroup.add(IngotItems.VOID_STEEL)
             itemGroup.add(IngotItems.OBLIVIUM_INGOT)
+            itemGroup.add(IngotItems.WRATH_STEEL)
             itemGroup.add(IngotItems.ITRIOCH_INGOT)
             itemGroup.add(IngotItems.SKYLINE_INGOT)
             itemGroup.add(IngotItems.NIXIUM_INGOT)

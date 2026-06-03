@@ -18,6 +18,7 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
     override fun generate(consumer: Consumer<RecipeJsonProvider>) {
         materialRecipes(consumer)
         weaponRecipes(consumer)
+        armourRecipes(consumer)
     }
 
     fun materialRecipes(consumer: Consumer<RecipeJsonProvider>) {
@@ -62,7 +63,10 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .input('C', MaterialItems.VOID_CRYSTAL)
             .input('S', MaterialItems.REINFORCED_STICK)
             .input('s', WeaponItems.OBLIVIUM_SCYTHE)
-            .criterion(hasItem(MaterialItems.VOID_VINE), conditionsFromItem(MaterialItems.VOID_VINE))
+            .criterion(
+                hasItem(MaterialItems.VOID_VINE),
+                conditionsFromItem(MaterialItems.VOID_VINE)
+            )
             .offerTo(consumer)
 
         // Scythe Of Oblivion
@@ -73,59 +77,71 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .pattern(" S ")
             .input('O', IngotItems.OBLIVIUM_INGOT)
             .input('S', Items.STICK)
-            .criterion(hasItem(IngotItems.OBLIVIUM_INGOT), conditionsFromItem(IngotItems.OBLIVIUM_INGOT))
+            .criterion(
+                hasItem(IngotItems.OBLIVIUM_INGOT),
+                conditionsFromItem(IngotItems.OBLIVIUM_INGOT)
+            )
             .offerTo(consumer)
 
+    }
+
+        fun armourRecipes(consumer: Consumer<RecipeJsonProvider>) {
 
         // Angelic Armour Set
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_HALO, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.ANGELIC_HALO, 1)
             .pattern("RRR")
             .pattern("R R")
             .input('R', MaterialItems.ANGELIC_REMNANT)
+            .offerTo(consumer)
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.ANGELIC_CHESTPLATE, 1)
             .pattern("R R")
             .pattern("RRR")
             .pattern("RRR")
             .input('R', MaterialItems.ANGELIC_REMNANT)
+            .offerTo(consumer)
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_LEGGINGS, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.ANGELIC_LEGGINGS, 1)
             .pattern("RRR")
             .pattern("R R")
             .pattern("R R")
             .input('R', MaterialItems.ANGELIC_REMNANT)
+            .offerTo(consumer)
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_BOOTS, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.ANGELIC_BOOTS, 1)
             .pattern("R R")
             .pattern("R R")
             .input('R', MaterialItems.ANGELIC_REMNANT)
+            .offerTo(consumer)
 
         // Wrathful Dragon Set
 
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.WRATH_STEEL_DRAGON_HELMET, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.CRIMSON_VISOR, 1)
             .pattern("RRR")
             .pattern("R R")
             .input('R', IngotItems.WRATH_STEEL)
+            .offerTo(consumer)
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.WRATH_STEEL_DRAGON_CHESTPLATE, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.FURNACE_CORE, 1)
             .pattern("R R")
             .pattern("RRR")
             .pattern("RRR")
             .input('R', IngotItems.WRATH_STEEL)
+            .offerTo(consumer)
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.WRATH_STEEL_DRAGON_LEGGINGS, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.HEATED_GREAVES, 1)
             .pattern("RRR")
             .pattern("R R")
             .pattern("R R")
             .input('R', IngotItems.WRATH_STEEL)
+            .offerTo(consumer)
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.WRATH_STEEL_DRAGON_BOOTS, 1)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ArmourItems.MAGMA_WALKERS, 1)
             .pattern("R R")
             .pattern("R R")
             .input('R', IngotItems.WRATH_STEEL)
-
+            .offerTo(consumer)
 
 
     }

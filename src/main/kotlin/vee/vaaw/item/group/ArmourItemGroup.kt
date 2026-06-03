@@ -18,7 +18,7 @@ object ArmourItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_armour"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(ArmourItems.VOID_STEEL_CROWN) }
+        .icon { ItemStack(ArmourItems.VOIDED_CROWN) }
         .displayName(Text.translatable("itemGroup.vaaw_armour"))
         .build()
 
@@ -31,51 +31,62 @@ object ArmourItemGroup {
     fun addItemGroupItems() {
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
-            itemGroup.add(ArmourItems.VOID_STEEL_CROWN)
-            itemGroup.add(ArmourItems.VOID_STEEL_CHESTPLATE)
-            itemGroup.add(ArmourItems.VOID_STEEL_LEGGINGS)
-            itemGroup.add(ArmourItems.VOID_STEEL_BOOTS)
 
-            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_HELMET)
-            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_CHESTPLATE)
-            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_LEGGINGS)
-            itemGroup.add(ArmourItems.WRATH_STEEL_DRAGON_BOOTS)
+            // Voided
+
+            itemGroup.add(ArmourItems.VOIDED_CROWN)
+            itemGroup.add(ArmourItems.WORMHOLE_MATRIX)
+            itemGroup.add(ArmourItems.SINGULARITY_THIGHGUARDS)
+            itemGroup.add(ArmourItems.ANCHOR_BOOTS)
+
+            // Wrathful
+
+            itemGroup.add(ArmourItems.CRIMSON_VISOR)
+            itemGroup.add(ArmourItems.FURNACE_CORE)
+            itemGroup.add(ArmourItems.HEATED_GREAVES)
+            itemGroup.add(ArmourItems.MAGMA_WALKERS)
+
+            // Angelic
 
             itemGroup.add(ArmourItems.ANGELIC_HALO)
             itemGroup.add(ArmourItems.ANGELIC_CHESTPLATE)
             itemGroup.add(ArmourItems.ANGELIC_LEGGINGS)
             itemGroup.add(ArmourItems.ANGELIC_BOOTS)
 
+            // Sel' Karin
+
             itemGroup.add(ArmourItems.SELKARIN_NECKLACE)
             itemGroup.add(ArmourItems.SELKARIN_CHESTPLATE)
             itemGroup.add(ArmourItems.SELKARIN_LEGGINGS)
             itemGroup.add(ArmourItems.SELKARIN_BOOTS)
 
-            itemGroup.add(ArmourItems.ITRIOCH_CROWN)
-            itemGroup.add(ArmourItems.ITRIOCH_CLOAK)
-            itemGroup.add(ArmourItems.ITRIOCH_PANTS)
-            itemGroup.add(ArmourItems.ITRIOCH_BOOTS)
+            // Itrioch
 
-            itemGroup.add(ArmourItems.OBLIVIUM_MASK)
-            itemGroup.add(ArmourItems.OBLIVIUM_CHESTPLATE)
-            itemGroup.add(ArmourItems.OBLIVIUM_LEGGINGS)
-            itemGroup.add(ArmourItems.OBLIVIUM_BOOTS)
+            itemGroup.add(ArmourItems.CANOPY_CROWN)
+            itemGroup.add(ArmourItems.BARKPLATE)
+            itemGroup.add(ArmourItems.ROOTED_GREAVES)
+            itemGroup.add(ArmourItems.SPORE_STRIDERS)
 
-            itemGroup.add(ArmourItems.NIXIUM_UMBRALUX)
-            itemGroup.add(ArmourItems.NIXIUM_VEST)
-            itemGroup.add(ArmourItems.NIXIUM_LEGGINGS)
-            itemGroup.add(ArmourItems.NIXIUM_BOOTS)
+            // Oblivium
+
+            itemGroup.add(ArmourItems.ERASURE_GAZE)
+            itemGroup.add(ArmourItems.NULLHEART)
+            itemGroup.add(ArmourItems.GRAVITON_GUARDS)
+            itemGroup.add(ArmourItems.ABYSS_WALKERS)
+
+            // Nixium
+
+            itemGroup.add(ArmourItems.UMBRALUX)
+            itemGroup.add(ArmourItems.VESPERSHIELD)
+            itemGroup.add(ArmourItems.PENUMBRA)
+            itemGroup.add(ArmourItems.TWILIGHT_SOLES)
+
+            // Skyline
 
             itemGroup.add(ArmourItems.SKYLINE_NECKLACE)
             itemGroup.add(ArmourItems.SKYLINE_CHESTPLATE)
             itemGroup.add(ArmourItems.SKYLINE_LEGGINGS)
             itemGroup.add(ArmourItems.SKYLINE_BOOTS)
-
-            // Vespershield, Penumbra, Twilight Soles - Nixium
-            // Erasure Gaze, Nullheart, Graviton Guards, Abyss Walkers - Oblivium
-            // Wormhole Matrix, Singularity Thighguards, Anchor Soles - Void Steel
-            // Canopy Crown, Barkplate, Rooted Greaves, Spore Striders - Itrioch
-            // Crimson Visor, Furnace Core, Heated Greaves, Magma Walkers - Wrath Steel
 
         }
 

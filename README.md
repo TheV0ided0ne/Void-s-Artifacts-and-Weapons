@@ -25,7 +25,7 @@
 
 ## About
 
-**Into The Multiverse (ITM)** is a mod inspired by the show of the same name, currently in production. It introduces items and mechanics designed to help you survive and thrive through the brutal challenges of:
+**Void's Artifacts and Weapons** is a mod inspired by the show **Into The Multiverse (ITM)**, currently in production. It introduces items and mechanics designed to help you survive and thrive through the brutal challenges of:
 
 > **[Legend of The Voided One: Reborn!](https://github.com/)** — the official VAAW modpack that this mod was built for. (THIS HAS NOT BEEN MADE YET, BUT I WILL SOON!)
 

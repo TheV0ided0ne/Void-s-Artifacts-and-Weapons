@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "V": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "H": {
+      "item": "vaaw:angelic_heart"
+    },
+    "G": {
+      "item": "aether:ambrosium_block"
+    }
+  },
+  "pattern": [
+    "VGV",
+    "GHG",
+    "VGV"
+  ],
+  "result": {
+    "item": "vaaw:angelic_remnant"
+  },
+  "show_notification": true
+}

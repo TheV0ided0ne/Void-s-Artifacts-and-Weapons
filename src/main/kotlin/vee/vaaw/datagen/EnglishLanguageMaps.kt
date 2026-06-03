@@ -14,7 +14,7 @@ object EnglishLanguageMaps {
         "itemGroup.vaaw_materials" to "VAAW Materials",
         "itemGroup.vaaw_weapons" to "VAAW Weapons",
         "itemGroup.vaaw_misc" to "VAAW Miscellaneous",
-        "itemGroup.vaaw.jokes" to "VAAW Joke Items"
+        "itemGroup.vaaw_jokes" to "VAAW Joke Items"
     )
 
     val trinketSlots = mapOf(

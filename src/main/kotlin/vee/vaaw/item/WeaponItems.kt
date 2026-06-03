@@ -32,7 +32,7 @@ object WeaponItems : ItemRegistrator("vaaw") {
     val ANGELIC_SPEAR = register("angelic_spear", AngelicSpearItem(ToolMaterials.ANGELIC_REMNANT,
         7, -3.1f, FabricItemSettings()))
 
-    val WRATH_GLAIVE = register("wrath_glaive", WrathGlaiveItem(ToolMaterials.WRATH_STEEL,
+    val WRATHFUL_KRONEN = register("wrath_glaive", WrathGlaiveItem(ToolMaterials.WRATH_STEEL,
         7, -3.1f, FabricItemSettings()))
 
     val ANGELIC_DAGGER = register("angelic_dagger", AngelicDaggerItem(ToolMaterials.ANGELIC_REMNANT,

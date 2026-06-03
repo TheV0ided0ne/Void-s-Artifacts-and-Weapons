@@ -55,7 +55,7 @@ object WeaponsItemGroup {
         }
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
-            itemGroup.add(WeaponItems.WRATH_GLAIVE)
+            itemGroup.add(WeaponItems.WRATHFUL_KRONEN)
         }
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->

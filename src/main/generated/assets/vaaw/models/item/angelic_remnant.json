@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "vaaw:item/void_thorn"
+    "layer0": "vaaw:item/angelic_remnant"
   }
 }
