@@ -61,6 +61,9 @@ object WeaponsItemGroup {
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             itemGroup.add(WeaponItems.ANGELIC_DAGGER)
         }
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.NIXIUM_WARHAMMER)
+        }
 
     }
 

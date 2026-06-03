@@ -38,7 +38,7 @@ enum class ArmourMaterials(
         25, Ingredient.ofItems(IngotItems.ITRIOCH_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_LEATHER
     ),
 
-    NIXIUM_INGOT(25, intArrayOf(5, 6, 5, 2), 0.2f, 0.0f,
+    NIXIUM_INGOT(25, intArrayOf(2, 6, 5, 3), 0.2f, 0.0f,
         20, Ingredient.ofItems(IngotItems.NIXIUM_INGOT), SoundEvents.ITEM_ARMOR_EQUIP_CHAIN
     ),
 

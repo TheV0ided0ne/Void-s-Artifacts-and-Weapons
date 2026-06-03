@@ -64,7 +64,9 @@ Whether you're a seasoned adventurer or a newcomer to the Voided world, ITM give
 
 Make sure the following mod is installed before loading ITM:
 
-- [`nuxon`](https://github.com/nuxl0x/nuxon)
+- [`nuxon - Library Mod`](https://github.com/nuxl0x/nuxon)
+- [`The Aether - Recipes`](https://github.com/The-Aether-Team/The-Aether)
+- [`LevelZ - Balancing`](https://github.com/Globox1997/LevelZ)
 
 ## Addons
 
@@ -72,7 +74,6 @@ All mods listed below are available with VAAW and have some interactions, it cou
 
 (P.S I placed the GitHub links only here so that I didn't have to seive through modrinth and curseforge for the mods)
 
-- [`The Aether - Recipes`](https://github.com/The-Aether-Team/The-Aether)
 - [`Better Combat - Combat`](https://github.com/ZsoltMolnarrr/BetterCombat)
 - [`Dungeon Now Loading - LevelZ`](https://github.com/hexnowloading/DungeonNowLoading)
 

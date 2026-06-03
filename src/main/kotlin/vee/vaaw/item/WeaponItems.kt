@@ -6,6 +6,7 @@ import vee.vaaw.item.material.ToolMaterials
 import vee.vaaw.item.type.weapon.AngelicDaggerItem
 import vee.vaaw.item.type.weapon.AngelicRapierItem
 import vee.vaaw.item.type.weapon.AngelicSpearItem
+import vee.vaaw.item.type.weapon.NixiumWarhammerItem
 import vee.vaaw.item.type.weapon.OblivionScytheItem
 import vee.vaaw.item.type.weapon.PoweredOceanScaleItem
 import vee.vaaw.item.type.weapon.UnpoweredOceanScaleItem
@@ -37,6 +38,11 @@ object WeaponItems : ItemRegistrator("vaaw") {
 
     val ANGELIC_DAGGER = register("angelic_dagger", AngelicDaggerItem(ToolMaterials.ANGELIC_REMNANT,
         5, -1.0f, FabricItemSettings()))
+
+    val NIXIUM_WARHAMMER = register("nixium_warhammer", NixiumWarhammerItem(ToolMaterials.NIXIUM_INGOT,
+        7, -4.2f, FabricItemSettings()
+    )
+    )
 
     fun registerItems() {}
 

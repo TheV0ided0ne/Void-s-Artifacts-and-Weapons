@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vaaw:nixium_ingot"
+    },
+    {
+      "item": "vaaw:itrioch_ingot"
+    },
+    {
+      "item": "vaaw:skyline_ingot"
+    },
+    {
+      "item": "vaaw:void_crystal"
+    }
+  ],
+  "result": {
+    "item": "vaaw:oblivium_ingot"
+  }
+}

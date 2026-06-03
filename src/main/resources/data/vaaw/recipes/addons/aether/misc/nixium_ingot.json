@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ZXC"
+  ],
+  "key": {
+    "Z": { "item": "graveyard:corruption" },
+    "X": { "item": "minecraft:iron_ingot" },
+    "C": { "item": "aether:golden_aercloud" }
+  },
+  "result": {
+    "item": "vaaw:nixium_ingot",
+    "count": 1
+  },
+  "show_notification": true
+}

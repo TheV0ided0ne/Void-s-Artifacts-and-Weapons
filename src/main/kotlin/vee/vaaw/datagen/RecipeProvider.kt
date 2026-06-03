@@ -34,6 +34,15 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
             .offerTo(consumer)
 
+        // Oblivium Steel
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, IngotItems.OBLIVIUM_STEEL, 1)
+            .input(IngotItems.NIXIUM_INGOT)
+            .input(IngotItems.ITRIOCH_INGOT)
+            .input(IngotItems.SKYLINE_INGOT)
+            .input(MaterialItems.VOID_CRYSTAL)
+            .criterion(hasItem(MaterialItems.VOID_CRYSTAL), conditionsFromItem(MaterialItems.VOID_CRYSTAL))
+            .offerTo(consumer)
+
         // Void Thorn
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, MaterialItems.VOID_VINE, 1)
             .pattern(" V ")
@@ -63,11 +72,7 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .input('C', MaterialItems.VOID_CRYSTAL)
             .input('S', MaterialItems.REINFORCED_STICK)
             .input('s', WeaponItems.OBLIVIUM_SCYTHE)
-            .criterion(
-                hasItem(MaterialItems.VOID_VINE),
-                conditionsFromItem(MaterialItems.VOID_VINE)
-            )
-            .offerTo(consumer)
+            .criterion(hasItem(MaterialItems.VOID_VINE), conditionsFromItem(MaterialItems.VOID_VINE)).offerTo(consumer)
 
         // Scythe Of Oblivion
 
@@ -77,15 +82,55 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .pattern(" S ")
             .input('O', IngotItems.OBLIVIUM_STEEL)
             .input('S', Items.STICK)
-            .criterion(
-                hasItem(IngotItems.OBLIVIUM_STEEL),
-                conditionsFromItem(IngotItems.OBLIVIUM_STEEL)
-            )
+            .criterion(hasItem(IngotItems.OBLIVIUM_STEEL), conditionsFromItem(IngotItems.OBLIVIUM_STEEL))
             .offerTo(consumer)
+
+        // Nixium Warhammer
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, WeaponItems.NIXIUM_WARHAMMER, 1)
+        .pattern("NNN")
+        .pattern("NSN")
+        .pattern(" S ")
+        .input('S', Items.STICK)
+        .input('N', IngotItems.NIXIUM_INGOT)
+        .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
+        .offerTo(consumer)
 
     }
 
     fun armourRecipes(consumer: Consumer<RecipeJsonProvider>) {
+
+        // Nixium
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.UMBRALUX, 1)
+            .pattern("VVV")
+            .pattern("V V")
+            .input('V', IngotItems.NIXIUM_INGOT)
+            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
+            .offerTo(consumer)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.VESPERSHIELD, 1)
+            .pattern("V V")
+            .pattern("VVV")
+            .pattern("VVV")
+            .input('V', IngotItems.NIXIUM_INGOT)
+            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
+            .offerTo(consumer)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.PENUMBRA, 1)
+            .pattern("VVV")
+            .pattern("V V")
+            .pattern("V V")
+            .input('V', IngotItems.NIXIUM_INGOT)
+            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
+            .offerTo(consumer)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.TWILIGHT_SOLES, 1)
+            .pattern("V V")
+            .pattern("V V")
+            .input('V', IngotItems.NIXIUM_INGOT)
+            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
+            .offerTo(consumer)
 
         // Voided
 
@@ -214,6 +259,7 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .offerTo(consumer)
 
             // Oblivium
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ERASURE_GAZE, 1)
             .pattern("OOO")
             .pattern("O O")
@@ -244,38 +290,8 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .criterion(hasItem(IngotItems.OBLIVIUM_STEEL), conditionsFromItem(IngotItems.OBLIVIUM_STEEL))
             .offerTo(consumer)
 
-            // Nixium
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.UMBRALUX, 1)
-            .pattern("NNN")
-            .pattern("N N")
-            .input('N', IngotItems.NIXIUM_INGOT)
-            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
-            .offerTo(consumer)
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.VESPERSHIELD, 1)
-            .pattern("N N")
-            .pattern("NNN")
-            .pattern("NNN")
-            .input('N', IngotItems.NIXIUM_INGOT)
-            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
-            .offerTo(consumer)
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.PENUMBRA, 1)
-            .pattern("NNN")
-            .pattern("N N")
-            .pattern("N N")
-            .input('N', IngotItems.NIXIUM_INGOT)
-            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
-            .offerTo(consumer)
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.TWILIGHT_SOLES, 1)
-            .pattern("N N")
-            .pattern("N N")
-            .input('N', IngotItems.NIXIUM_INGOT)
-            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
-            .offerTo(consumer)
-
             // Skyline
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.SKYLINE_NECKLACE, 1)
             .pattern("KKK")
             .pattern("K K")

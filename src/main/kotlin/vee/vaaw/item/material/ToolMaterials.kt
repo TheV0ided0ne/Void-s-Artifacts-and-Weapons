@@ -27,7 +27,10 @@ enum class ToolMaterials(
         Ingredient.ofItems(MaterialItems.SELKARIN_SCALE)),
 
     WRATH_STEEL(3750, 8.7f, 8.0f, 4, 15,
-        Ingredient.ofItems(IngotItems.WRATH_STEEL));
+        Ingredient.ofItems(IngotItems.WRATH_STEEL)),
+
+    NIXIUM_INGOT(1250, 5.0f, 2.0f, 3, 25,
+        Ingredient.ofItems(IngotItems.NIXIUM_INGOT));
 
     override fun getDurability() = durability
     override fun getMiningSpeedMultiplier() = miningSpeed

@@ -2,16 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "V": {
+    "N": {
       "item": "vaaw:nixium_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "V V",
-    "V V"
+    "NNN",
+    "NSN",
+    " S "
   ],
   "result": {
-    "item": "vaaw:nixium_twilight_soles"
+    "item": "vaaw:nixium_warhammer"
   },
   "show_notification": true
 }

@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "N": {
+    "V": {
       "item": "vaaw:nixium_ingot"
     }
   },
   "pattern": [
-    "NNN",
-    "N N"
+    "VVV",
+    "V V"
   ],
   "result": {
     "item": "vaaw:nixium_umbralux"
