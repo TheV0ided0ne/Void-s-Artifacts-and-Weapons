@@ -321,5 +321,37 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .input('K', IngotItems.SKYLINE_INGOT)
             .criterion(hasItem(IngotItems.SKYLINE_INGOT), conditionsFromItem(IngotItems.SKYLINE_INGOT))
             .offerTo(consumer)
+
+        // Angelic
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_HALO, 1)
+            .pattern("KKK")
+            .pattern("K K")
+            .input('K', MaterialItems.ANGELIC_REMNANT)
+            .criterion(hasItem(MaterialItems.ANGELIC_REMNANT), conditionsFromItem(MaterialItems.ANGELIC_REMNANT))
+            .offerTo(consumer)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_CHESTPLATE, 1)
+            .pattern("K K")
+            .pattern("KKK")
+            .pattern("KKK")
+            .input('K', MaterialItems.ANGELIC_REMNANT)
+            .criterion(hasItem(MaterialItems.ANGELIC_REMNANT), conditionsFromItem(MaterialItems.ANGELIC_REMNANT))
+            .offerTo(consumer)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_LEGGINGS, 1)
+            .pattern("KKK")
+            .pattern("K K")
+            .pattern("K K")
+            .input('K', MaterialItems.ANGELIC_REMNANT)
+            .criterion(hasItem(MaterialItems.ANGELIC_REMNANT), conditionsFromItem(MaterialItems.ANGELIC_REMNANT))
+            .offerTo(consumer)
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ArmourItems.ANGELIC_BOOTS, 1)
+            .pattern("K K")
+            .pattern("K K")
+            .input('K', MaterialItems.ANGELIC_REMNANT)
+            .criterion(hasItem(MaterialItems.ANGELIC_REMNANT), conditionsFromItem(MaterialItems.ANGELIC_REMNANT))
+            .offerTo(consumer)
         }
 }
