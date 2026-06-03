@@ -43,7 +43,19 @@ object WeaponsItemGroup {
         }
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.ANGELIC_SPEAR)
+        }
+
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
             itemGroup.add(WeaponItems.UNPOWERED_OCEANSCALE_BLADE)
+        }
+
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.POWERED_OCEANSCALE_BLADE)
+        }
+
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.WRATH_GLAIVE)
         }
 
     }

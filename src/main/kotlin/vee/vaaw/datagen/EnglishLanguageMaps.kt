@@ -13,7 +13,8 @@ object EnglishLanguageMaps {
         "itemGroup.vaaw_consumables" to "VAAW Consumables",
         "itemGroup.vaaw_materials" to "VAAW Materials",
         "itemGroup.vaaw_weapons" to "VAAW Weapons",
-        "itemGroup.vaaw_misc" to "VAAW Miscellaneous"
+        "itemGroup.vaaw_misc" to "VAAW Miscellaneous",
+        "itemGroup.vaaw.jokes" to "VAAW Joke Items"
     )
 
     val trinketSlots = mapOf(
@@ -37,6 +38,7 @@ object EnglishLanguageMaps {
     val tooltips = mapOf(
         "itemTooltip.vaaw.void_scythe1" to TooltipText.VoidScythe.ONE,
         "itemTooltip.vaaw.void_scythe2" to TooltipText.VoidScythe.TWO,
+        "itemTooltip.vaaw.void_scythe3" to TooltipText.VoidScythe.THREE,
         "itemTooltip.vaaw.oblivion_scythe1" to TooltipText.OBLIVION_SCYTHE
     )
 
@@ -46,7 +48,7 @@ object EnglishLanguageMaps {
     )
 
     val categories = mapOf(
-        "category.vaaw.general" to "VAaW Keybinds"
+        "category.vaaw.general" to "VAAW Keybinds"
     )
 
     fun getMaps(): List<Map<String, String>> {

@@ -7,6 +7,7 @@ import net.minecraft.data.client.ItemModelGenerator
 import net.minecraft.data.client.Models
 import vee.vaaw.item.ConsumableItems
 import vee.vaaw.item.IngotItems
+import vee.vaaw.item.JokeItems
 import vee.vaaw.item.MaterialItems
 import vee.vaaw.item.TrinketItems
 
@@ -30,13 +31,14 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
         ingotItems(itemModelGenerator)
         materialItems(itemModelGenerator)
         trinketItems(itemModelGenerator)
+        jokeItems(itemModelGenerator)
 
     }
 
     fun consumableItems(modelGen: ItemModelGenerator) {
 
         modelGen.register(ConsumableItems.ANGELIC_SYRINGE, Models.GENERATED)
-        modelGen.register(ConsumableItems.SINGU_APPLE, Models.GENERATED)
+        modelGen.register(ConsumableItems.SINGULARITY_APPLE, Models.GENERATED)
 
     }
 
@@ -45,7 +47,7 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
         modelGen.register(IngotItems.VOID_STEEL, Models.GENERATED)
         modelGen.register(IngotItems.ANGELIC_STEEL, Models.GENERATED)
         modelGen.register(IngotItems.WRATH_STEEL, Models.GENERATED)
-        modelGen.register(IngotItems.ELPHIUM_INGOT, Models.GENERATED)
+        modelGen.register(IngotItems.SKYLINE_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.ITRIOCH_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.OBLIVIUM_INGOT, Models.GENERATED)
         modelGen.register(IngotItems.NIXIUM_INGOT, Models.GENERATED)
@@ -64,22 +66,32 @@ class ItemModelProvider(output: FabricDataOutput) : FabricModelProvider(output) 
 
     fun trinketItems(modelGen: ItemModelGenerator) {
 
-        modelGen.register(TrinketItems.EXAMPLE_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.BLANK_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.HEART_OF_THE_SIBLINGS, Models.GENERATED)
-        modelGen.register(TrinketItems.EYE_OF_THE_VOID, Models.GENERATED)
-        modelGen.register(TrinketItems.BADGE_OF_THE_ANGELIC_GUARD, Models.GENERATED)
-        modelGen.register(TrinketItems.SOUL_TIED_RING, Models.GENERATED)
-        modelGen.register(TrinketItems.SOULS_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.WRATH_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.BALANCE_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.BRAVERY_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.DEVOTION_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.PEACE_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.RAGE_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.SILENCE_TRINKET, Models.GENERATED)
-        modelGen.register(TrinketItems.SWIFTNESS_TRINKET, Models.GENERATED)
+       modelGen.register(TrinketItems.SOUL_ARTIFACT, Models.GENERATED)
 
+    }
+
+    fun jokeItems(modelGen: ItemModelGenerator) {
+
+        modelGen.register(JokeItems.BREAD_ONE, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_TWO, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_THREE, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_FOUR, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_FIVE, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_SIX, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_SEVEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_EIGHT, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_NINE, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_TEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_ELEVEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_TWELVE, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_THIRTEEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_FOURTEEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_FIFTEEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_SIXTEEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_SEVENTEEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_EIGHTEEN, Models.GENERATED)
+        modelGen.register(JokeItems.BREAD_NINETEEN, Models.GENERATED)
+        modelGen.register(JokeItems.LEH_ULTIMATE_BAGUETTE, Models.GENERATED)
     }
 
 }

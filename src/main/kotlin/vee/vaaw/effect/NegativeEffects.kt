@@ -14,7 +14,6 @@ import vee.vaaw.effect.type.BleedEffect
 object NegativeEffects: EffectRegistrator("vaaw") {
 
     val VOID_TOUCHED: StatusEffect = register("void_touched", VoidTouchedEffect)
-    val WRATH: StatusEffect = register("wrath", WrathEffect)
     val ANGELIC_DECEIT: StatusEffect = register("angelic_deceit", AngelicDeceitEffect)
     val BLEED: StatusEffect = register("bleed", BleedEffect)
 

@@ -5,14 +5,21 @@ import net.minecraft.item.Item
 import nuxlox.nuxon.item.ItemRegistrator
 import software.bernie.example.registry.ItemRegistry.registerItem
 import vee.vaaw.item.type.consumable.AngelicSyringeItem
-import vee.vaaw.item.type.consumable.SinguAppleItem
+import vee.vaaw.item.type.consumable.SingularityAppleItem
 
 object ConsumableItems : ItemRegistrator("vaaw") {
 
-    val ANGELIC_SYRINGE = register("angelic_syringe", AngelicSyringeItem(FabricItemSettings().maxCount(4)))
+    val ANGELIC_SYRINGE = register(
+        "angelic_syringe",
+        AngelicSyringeItem(
+            FabricItemSettings().maxCount(4)))
 
-    val SINGU_APPLE: Item = registerItem("singu_apple", Item(FabricItemSettings().maxCount(4)
-            .food(SinguAppleItem.SINGU_APPLE)))
+    val SINGULARITY_APPLE: Item = register(
+        "singularity_apple", Item(
+            FabricItemSettings().maxCount(8)
+                .food(SingularityAppleItem.SINGULARITY_APPLE)
+        )
+    )
 
     fun registerItems() {}
 

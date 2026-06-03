@@ -9,6 +9,7 @@ import vee.vaaw.item.type.weapon.OblivionScytheItem
 import vee.vaaw.item.type.weapon.PoweredOceanScaleItem
 import vee.vaaw.item.type.weapon.UnpoweredOceanScaleItem
 import vee.vaaw.item.type.weapon.VoidScytheItem
+import vee.vaaw.item.type.weapon.WrathGlaiveItem
 
 object WeaponItems : ItemRegistrator("vaaw") {
 
@@ -28,6 +29,9 @@ object WeaponItems : ItemRegistrator("vaaw") {
         7, -3.1f, FabricItemSettings()))
 
     val ANGELIC_SPEAR = register("angelic_spear", AngelicSpearItem(ToolMaterials.ANGELIC_STEEL,
+        7, -3.1f, FabricItemSettings()))
+
+    val WRATH_GLAIVE = register("wrath_glaive", WrathGlaiveItem(ToolMaterials.WRATH_STEEL,
         7, -3.1f, FabricItemSettings()))
 
     fun registerItems() {}

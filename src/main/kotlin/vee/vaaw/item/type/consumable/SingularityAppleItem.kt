@@ -4,9 +4,9 @@ import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.item.FoodComponent
 
-    object SinguAppleItem {
+    object SingularityAppleItem {
 
-        val SINGU_APPLE: FoodComponent = FoodComponent.Builder()
+        val SINGULARITY_APPLE: FoodComponent = FoodComponent.Builder()
             .hunger(20)
             .saturationModifier(20f)
             .statusEffect(StatusEffectInstance(StatusEffects.GLOWING, 200, 0), 1.0f)

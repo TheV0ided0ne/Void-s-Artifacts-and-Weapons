@@ -8,4 +8,6 @@ object TrinketItems : ItemRegistrator("vaaw") {
 
     val SOUL_ARTIFACT = register("soul_artifact", Item(FabricItemSettings().maxCount(1)))
 
+    fun registerItems() {}
+
 }

@@ -4,7 +4,7 @@ import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectCategory
 
 object WrathEffect : StatusEffect(
-    StatusEffectCategory.BENEFICIAL,
+    StatusEffectCategory.NEUTRAL,
     0x8B0000
 ) {
 

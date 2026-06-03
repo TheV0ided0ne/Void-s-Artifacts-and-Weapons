@@ -18,7 +18,7 @@ object ConsumablesItemGroup {
         Identifier(Vaaw.MOD_ID, "vaaw_consumables"))
 
     val ITEM_GROUP: ItemGroup = FabricItemGroup.builder()
-        .icon { ItemStack(ConsumableItems.ANGELIC_SYRINGE) }
+        .icon { ItemStack(ConsumableItems.SINGULARITY_APPLE) }
         .displayName(Text.translatable("itemGroup.vaaw_consumables"))
         .build()
 
@@ -35,8 +35,9 @@ object ConsumablesItemGroup {
         }
 
         ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
-            itemGroup.add(ConsumableItems.SINGU_APPLE)
+            itemGroup.add(ConsumableItems.SINGULARITY_APPLE)
         }
+
 
     }
 
