@@ -51,6 +51,32 @@ object ArmourItemGroup {
             itemGroup.add(ArmourItems.SELKARIN_LEGGINGS)
             itemGroup.add(ArmourItems.SELKARIN_BOOTS)
 
+            itemGroup.add(ArmourItems.ITRIOCH_CROWN)
+            itemGroup.add(ArmourItems.ITRIOCH_CLOAK)
+            itemGroup.add(ArmourItems.ITRIOCH_PANTS)
+            itemGroup.add(ArmourItems.ITRIOCH_BOOTS)
+
+            itemGroup.add(ArmourItems.OBLIVIUM_MASK)
+            itemGroup.add(ArmourItems.OBLIVIUM_CHESTPLATE)
+            itemGroup.add(ArmourItems.OBLIVIUM_LEGGINGS)
+            itemGroup.add(ArmourItems.OBLIVIUM_BOOTS)
+
+            itemGroup.add(ArmourItems.NIXIUM_UMBRALUX)
+            itemGroup.add(ArmourItems.NIXIUM_VEST)
+            itemGroup.add(ArmourItems.NIXIUM_LEGGINGS)
+            itemGroup.add(ArmourItems.NIXIUM_BOOTS)
+
+            itemGroup.add(ArmourItems.SKYLINE_NECKLACE)
+            itemGroup.add(ArmourItems.SKYLINE_CHESTPLATE)
+            itemGroup.add(ArmourItems.SKYLINE_LEGGINGS)
+            itemGroup.add(ArmourItems.SKYLINE_BOOTS)
+
+            // Vespershield, Penumbra, Twilight Soles - Nixium
+            // Erasure Gaze, Nullheart, Graviton Guards, Abyss Walkers - Oblivium
+            // Wormhole Matrix, Singularity Thighguards, Anchor Soles - Void Steel
+            // Canopy Crown, Barkplate, Rooted Greaves, Spore Striders - Itrioch
+            // Crimson Visor, Furnace Core, Heated Greaves, Magma Walkers - Wrath Steel
+
         }
 
     }

@@ -10,7 +10,7 @@ import net.minecraft.text.Text
 import net.minecraft.world.World
 import vee.vaaw.effect.NegativeEffects
 
-class AngelicRapierItem(
+class AngelicDaggerItem(
     toolMaterial: ToolMaterial,
     attackDamage: Int,
     attackSpeed: Float,
@@ -23,22 +23,11 @@ class AngelicRapierItem(
 
         target.addStatusEffect(StatusEffectInstance(
             NegativeEffects.ANGELIC_DECEIT,
-            60,
+            30,
             0
         ))
 
         return super.postHit(stack, target, attacker)
-    }
-
-    override fun appendTooltip(
-        stack: ItemStack,
-        world: World?,
-        tooltip: MutableList<Text>,
-        context: TooltipContext
-    ) {
-        tooltip.add(Text.translatable("itemTooltip.vaaw.angelic_spear1"))
-        tooltip.add(Text.translatable("itemTooltip.vaaw.angelic_spear2"))
-        super.appendTooltip(stack, world, tooltip, context)
     }
 
 }

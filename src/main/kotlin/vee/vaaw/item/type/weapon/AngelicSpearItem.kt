@@ -24,7 +24,7 @@ class AngelicSpearItem(
         target.addStatusEffect(StatusEffectInstance(
             NegativeEffects.ANGELIC_DECEIT,
             120,
-            0
+            1
         ))
 
         return super.postHit(stack, target, attacker)

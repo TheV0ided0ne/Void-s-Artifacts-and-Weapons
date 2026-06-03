@@ -58,6 +58,10 @@ object WeaponsItemGroup {
             itemGroup.add(WeaponItems.WRATH_GLAIVE)
         }
 
+        ItemGroupEvents.modifyEntriesEvent(GROUP_KEY).register { itemGroup ->
+            itemGroup.add(WeaponItems.ANGELIC_DAGGER)
+        }
+
     }
 
     fun registerGroup() {

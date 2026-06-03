@@ -3,6 +3,7 @@ package vee.vaaw.item
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import nuxlox.nuxon.item.ItemRegistrator
 import vee.vaaw.item.material.ToolMaterials
+import vee.vaaw.item.type.weapon.AngelicDaggerItem
 import vee.vaaw.item.type.weapon.AngelicRapierItem
 import vee.vaaw.item.type.weapon.AngelicSpearItem
 import vee.vaaw.item.type.weapon.OblivionScytheItem
@@ -20,7 +21,7 @@ object WeaponItems : ItemRegistrator("vaaw") {
         6, -3.2f, FabricItemSettings()))
 
     val ANGELIC_RAPIER = register("angelic_rapier", AngelicRapierItem(ToolMaterials.ANGELIC_REMNANT,
-        6, -1.0f, FabricItemSettings()))
+        6, -1.5f, FabricItemSettings()))
 
     val POWERED_OCEANSCALE_BLADE = register("powered_oceanscale_blade", PoweredOceanScaleItem(ToolMaterials.SELKARIN_SCALE,
         7, -3.1f, FabricItemSettings()))
@@ -33,6 +34,9 @@ object WeaponItems : ItemRegistrator("vaaw") {
 
     val WRATH_GLAIVE = register("wrath_glaive", WrathGlaiveItem(ToolMaterials.WRATH_STEEL,
         7, -3.1f, FabricItemSettings()))
+
+    val ANGELIC_DAGGER = register("angelic_dagger", AngelicDaggerItem(ToolMaterials.ANGELIC_REMNANT,
+        5, -1.0f, FabricItemSettings()))
 
     fun registerItems() {}
 
