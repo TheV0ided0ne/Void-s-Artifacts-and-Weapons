@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:shapeless",
+  "category": "misc",
+  "pattern": [
+    "",
+    "",
+    ""
+  ],
+  "key": {
+    "Z": { "item": "" },
+    "X": { "item": "" },
+    "C": { "item": "" }
+  },
+  "result": {
+    "item": "vaaw:itrioch_ingot",
+    "count": 1
+  },
+  "show_notification": true
+}

@@ -75,7 +75,6 @@ dependencies {
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
     modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
-
     implementation 'org.lwjgl:lwjgl-opengl:3.3.2'
 
     modImplementation files("libs/nuxon-2.0.0.jar")

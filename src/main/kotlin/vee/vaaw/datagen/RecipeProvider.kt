@@ -59,6 +59,10 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .input(Items.STICK)
             .criterion(hasItem(Items.NETHERITE_SCRAP), conditionsFromItem(Items.NETHERITE_SCRAP))
             .offerTo(consumer)
+
+        // Itrioch Ingot
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, IngotItems.ITRIOCH_INGOT, 1)
+            .input(Items.VINE, 3)
     }
 
     fun weaponRecipes(consumer: Consumer<RecipeJsonProvider>) {
