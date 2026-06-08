@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CIG",
+    "GGG"
+  ],
+  "key": {
+    "C": {"item": "graveyard:corruption"},
+    "I": {"item": "minecraft:iron_ingot"},
+    "G": {"item": "aether:golden_aercloud"}
+  },
+  "result": {
+    "item": "vaaw:nixium_ingot"
+  }
+}

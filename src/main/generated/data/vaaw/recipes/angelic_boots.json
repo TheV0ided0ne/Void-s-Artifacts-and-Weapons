@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "vaaw:angelic_remnant"
+    }
+  },
+  "pattern": [
+    "K K",
+    "K K"
+  ],
+  "result": {
+    "item": "vaaw:angelic_boots"
+  },
+  "show_notification": true
+}

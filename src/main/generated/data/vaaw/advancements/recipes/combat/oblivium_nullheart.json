@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_nixium_ingot": {
+    "has_oblivium_ingot": {
       "conditions": {
         "items": [
           {
             "items": [
-              "vaaw:nixium_ingot"
+              "vaaw:oblivium_ingot"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "vaaw:oblivium_ingot"
+        "recipe": "vaaw:oblivium_nullheart"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_nixium_ingot",
+      "has_oblivium_ingot",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vaaw:oblivium_ingot"
+      "vaaw:oblivium_nullheart"
     ]
   },
   "sends_telemetry_event": false

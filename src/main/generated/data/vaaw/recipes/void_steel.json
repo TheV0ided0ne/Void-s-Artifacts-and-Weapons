@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vaaw:oblivium_ingot"
+    },
+    {
+      "item": "vaaw:void_crystal"
+    }
+  ],
+  "result": {
+    "item": "vaaw:void_steel"
+  }
+}

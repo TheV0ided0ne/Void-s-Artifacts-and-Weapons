@@ -25,7 +25,11 @@ object EnglishLanguageMaps {
 
     val effects = mapOf(
         "effect.vaaw.void_touched" to "Void Touched",
-        "effect.vaaw.angelic_injection" to "Angelic Injection"
+        "effect.vaaw.angelic_injection" to "Angelic Injection",
+        "effect.vaaw.bleed" to "Bleed",
+        "effect.vaaw.wrath" to "Wrath",
+        "effect.vaaw.angelic_deceit" to "Angelic Deceit",
+        "effect.vaaw.rage" to "Rage"
     )
 
     val messages = mapOf(
@@ -39,7 +43,14 @@ object EnglishLanguageMaps {
         "itemTooltip.vaaw.void_scythe1" to TooltipText.VoidScythe.ONE,
         "itemTooltip.vaaw.void_scythe2" to TooltipText.VoidScythe.TWO,
         "itemTooltip.vaaw.void_scythe3" to TooltipText.VoidScythe.THREE,
-        "itemTooltip.vaaw.oblivion_scythe1" to TooltipText.OBLIVION_SCYTHE
+        "itemTooltip.vaaw.oblivion_scythe1" to TooltipText.OblivionScythe.ONE,
+        "itemTooltip.vaaw.oblivion_scythe1" to TooltipText.OblivionScythe.TWO,
+        "itemTooltip.vaaw.angelic_spear1" to TooltipText.AngelicSpear.ONE,
+        "itemTooltip.vaaw.angelic_spear2" to TooltipText.AngelicSpear.TWO,
+        "itemTooltip.vaaw.wrath_kronen1" to TooltipText.WrathKronen.ONE,
+        "itemTooltip.vaaw.wrath_kronen2" to TooltipText.WrathKronen.TWO,
+        "itemTooltip.vaaw.angelic_dagger1" to TooltipText.AngelicDagger.ONE,
+        "itemTooltip.vaaw.angelic_dagger2" to TooltipText.AngelicDagger.TWO
     )
 
     val keybinds = mapOf(

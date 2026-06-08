@@ -8,11 +8,23 @@ object TooltipText {
         const val THREE = "§5Hm, what a peculiar situation we have here... - Void"
     }
 
-    const val OBLIVION_SCYTHE = "The start of a legend, use this scythe that 'The Voided One' himself used to shatter all evil in your way!"
+    object OblivionScythe {
+        const val ONE = "The start of a legend, use this scythe that 'The Voided One' himself used to shatter all evil in your way!"
+        const val TWO = "Now this... this is what I've been yearning for! - Void"
+    }
 
-    const val WRATH_GLAIVE = "Tch, You are SO PATHETIC! - Florian"
+    object WrathKronen {
+        const val ONE = "A Kronen gifted to Florian from Void after his wrathful nature started to sprout"
+        const val TWO = "Tch, You are SO PATHETIC! - Florian"
+    }
 
-    const val ANGELIC_SPEAR = "How interesting... Yet another demon I see - Shiori"
+    object AngelicSpear {
+        const val ONE = "Forged by Shiori with the angelic steel that was gifted by Void from his... unknown methods"
+        const val TWO = "How interesting... Yet another demon I see - Shiori"
+    }
 
-    const val ANGELIC_DAGGER = "Pah! Fight me you imbecile! - Shiori"
+    object AngelicDagger {
+        const val ONE = "Shiori's iconic daggers forged from gifted angelic steel by Void"
+        const val TWO = "Pah! Fight me you imbecile! - Shiori"
+    }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "vaaw:angelic_remnant"
+    }
+  },
+  "pattern": [
+    "KKK",
+    "K K"
+  ],
+  "result": {
+    "item": "vaaw:angelic_halo"
+  },
+  "show_notification": true
+}

@@ -34,13 +34,19 @@ class RecipeProvider(output: FabricDataOutput) : FabricRecipeProvider(output) {
             .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
             .offerTo(consumer)
 
+        // Void Steel
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, IngotItems.VOID_STEEL, 1)
+            .input(IngotItems.OBLIVIUM_STEEL)
+            .input(MaterialItems.VOID_CRYSTAL)
+            .criterion(hasItem(MaterialItems.VOID_CRYSTAL), conditionsFromItem(MaterialItems.VOID_CRYSTAL))
+            .offerTo(consumer)
+
         // Oblivium Steel
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, IngotItems.OBLIVIUM_STEEL, 1)
             .input(IngotItems.NIXIUM_INGOT)
             .input(IngotItems.ITRIOCH_INGOT)
             .input(IngotItems.SKYLINE_INGOT)
-            .input(MaterialItems.VOID_CRYSTAL)
-            .criterion(hasItem(MaterialItems.VOID_CRYSTAL), conditionsFromItem(MaterialItems.VOID_CRYSTAL))
+            .criterion(hasItem(IngotItems.NIXIUM_INGOT), conditionsFromItem(IngotItems.NIXIUM_INGOT))
             .offerTo(consumer)
 
         // Void Thorn

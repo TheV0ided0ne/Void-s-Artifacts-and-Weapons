@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "O": {
-      "item": "vaaw:oblivium_ingot"
+    "K": {
+      "item": "vaaw:angelic_remnant"
     }
   },
   "pattern": [
-    "O O",
-    "OOO",
-    "OOO"
+    "KKK",
+    "K K",
+    "K K"
   ],
   "result": {
-    "item": "vaaw:oblivium_mullheart"
+    "item": "vaaw:angelic_leggings"
   },
   "show_notification": true
 }

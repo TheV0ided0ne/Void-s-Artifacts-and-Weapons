@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VXV",
+    "CIC",
+    "VXV"
+  ],
+  "key": {
+    "V": { "item": "botania:vine_ball" },
+    "X": { "item": "botania:livingrock" },
+    "C": { "item": "botania:manasteel_ingot" },
+    "I": { "item": "minecraft:iron_ingot"}
+  },
+  "result": {
+    "item": "vaaw:itrioch_ingot",
+    "count": 1
+  },
+  "show_notification": true
+}

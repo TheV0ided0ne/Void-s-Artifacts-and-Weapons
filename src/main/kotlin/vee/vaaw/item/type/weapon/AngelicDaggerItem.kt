@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack
 import net.minecraft.item.SwordItem
 import net.minecraft.item.ToolMaterial
 import net.minecraft.text.Text
+import net.minecraft.text.Text.translatable
 import net.minecraft.world.World
 import vee.vaaw.effect.NegativeEffects
 
@@ -28,6 +29,17 @@ class AngelicDaggerItem(
         ))
 
         return super.postHit(stack, target, attacker)
+    }
+
+    override fun appendTooltip(
+        stack: ItemStack,
+        world: World?,
+        tooltip: MutableList<Text>,
+        context: TooltipContext
+    ) {
+        tooltip.add(Text.translatable("itemTooltip.vaaw.angelic_dagger1"))
+        tooltip.add(Text.translatable("itemTooltip.vaaw.angelic_dagger2"))
+        super.appendTooltip(stack, world, tooltip, context)
     }
 
 }

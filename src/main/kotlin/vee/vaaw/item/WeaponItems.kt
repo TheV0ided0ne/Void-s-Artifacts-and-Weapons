@@ -11,7 +11,7 @@ import vee.vaaw.item.type.weapon.OblivionScytheItem
 import vee.vaaw.item.type.weapon.PoweredOceanScaleItem
 import vee.vaaw.item.type.weapon.UnpoweredOceanScaleItem
 import vee.vaaw.item.type.weapon.VoidScytheItem
-import vee.vaaw.item.type.weapon.WrathGlaiveItem
+import vee.vaaw.item.type.weapon.WrathKronenItem
 
 object WeaponItems : ItemRegistrator("vaaw") {
 
@@ -33,14 +33,14 @@ object WeaponItems : ItemRegistrator("vaaw") {
     val ANGELIC_SPEAR = register("angelic_spear", AngelicSpearItem(ToolMaterials.ANGELIC_REMNANT,
         7, -3.1f, FabricItemSettings()))
 
-    val WRATHFUL_KRONEN = register("wrath_glaive", WrathGlaiveItem(ToolMaterials.WRATH_STEEL,
+    val WRATHFUL_KRONEN = register("wrath_kronen", WrathKronenItem(ToolMaterials.WRATH_STEEL,
         7, -3.1f, FabricItemSettings()))
 
     val ANGELIC_DAGGER = register("angelic_dagger", AngelicDaggerItem(ToolMaterials.ANGELIC_REMNANT,
         5, -1.0f, FabricItemSettings()))
 
     val NIXIUM_WARHAMMER = register("nixium_warhammer", NixiumWarhammerItem(ToolMaterials.NIXIUM_INGOT,
-        7, -4.2f, FabricItemSettings()
+        7, -3.4f, FabricItemSettings()
     )
     )
 

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "K": {
+      "item": "vaaw:angelic_remnant"
+    }
+  },
+  "pattern": [
+    "K K",
+    "KKK",
+    "KKK"
+  ],
+  "result": {
+    "item": "vaaw:angelic_chestplate"
+  },
+  "show_notification": true
+}

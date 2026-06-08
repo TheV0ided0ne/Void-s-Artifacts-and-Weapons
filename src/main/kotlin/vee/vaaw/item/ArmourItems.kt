@@ -46,7 +46,7 @@ object ArmourItems : ItemRegistrator("vaaw") {
     // Oblivium
 
     val ERASURE_GAZE = register("oblivium_erasure_gaze", ArmorItem(d.oIngot, d.helmet, d.settings))
-    val NULLHEART = register("oblivium_mullheart", ArmorItem(d.oIngot, d.chestplate, d.settings))
+    val NULLHEART = register("oblivium_nullheart", ArmorItem(d.oIngot, d.chestplate, d.settings))
     val GRAVITON_GUARDS = register("oblivium_graviton_guards", ArmorItem(d.oIngot, d.leggings, d.settings))
     val ABYSS_WALKERS = register("oblivium_abyss_walkers", ArmorItem(d.oIngot, d.boot, d.settings))
 

@@ -8,10 +8,9 @@ import net.minecraft.item.SwordItem
 import net.minecraft.item.ToolMaterial
 import net.minecraft.text.Text
 import net.minecraft.world.World
-import vee.vaaw.effect.NegativeEffects
 import vee.vaaw.effect.NeutralEffects
 
-class WrathGlaiveItem(
+class WrathKronenItem(
     toolMaterial: ToolMaterial,
     attackDamage: Int,
     attackSpeed: Float,
@@ -29,6 +28,17 @@ class WrathGlaiveItem(
         ))
 
         return super.postHit(stack, target, attacker)
+    }
+
+    override fun appendTooltip(
+        stack: ItemStack,
+        world: World?,
+        tooltip: MutableList<Text>,
+        context: TooltipContext
+    ) {
+        tooltip.add(Text.translatable("itemTooltip.wrath_kronen1"))
+        tooltip.add(Text.translatable("itemTooltip.wrath_kronen2"))
+        super.appendTooltip(stack, world, tooltip, context)
     }
 
 }

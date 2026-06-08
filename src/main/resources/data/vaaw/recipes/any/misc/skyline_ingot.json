@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IHI",
+    "GDG",
+    "HIH"
+    ],
+  "key": {
+    "I": {"item": "minecraft:iron_ingot"},
+    "G": {"item": "minecraft:gold_ingot"},
+    "D": {"item": "minecraft:diamond"},
+    "H": {"item": "aether:holystone"}
+  },
+  "result": {
+    "item": "vaaw:skyline_ingot"
+  }
+}
