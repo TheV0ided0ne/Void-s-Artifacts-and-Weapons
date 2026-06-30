@@ -1,7 +1,7 @@
 package vee.vaaw.datagen
 
-import vee.vaaw.util.text.MessageText
-import vee.vaaw.util.text.TooltipText
+import vee.vaaw.datagen.text.MessageText
+import vee.vaaw.datagen.text.TooltipText
 
 /**
  * [EnglishLanguageMaps] is where all the data generation binds are actually declared.
@@ -25,14 +25,17 @@ object EnglishLanguageMaps {
 
     val effects = mapOf(
         "effect.vaaw.void_touched" to "Void Touched",
-        "effect.vaaw.angelic_injection" to "Angelic Injection"
+        "effect.vaaw.angelic_injection" to "Angelic Injection",
+        "effect.vaaw.angelic_deceit" to "Angelic Deceit"
     )
 
     val messages = mapOf(
         "death.attack.void_touched" to MessageText.VoidTouched.DEATH,
         "death.attack.void_touched.player" to MessageText.VoidTouched.DEATH_PLAYER,
         "death.attack.bleed" to MessageText.Bleed.DEATH,
-        "death.attack.bleed.player" to MessageText.Bleed.DEATH_PLAYER
+        "death.attack.bleed.player" to MessageText.Bleed.DEATH_PLAYER,
+        "death.attack.angelic_deceit" to MessageText.AngelicDeceit.DEATH,
+        "death.attack.angelic_deceit.player" to MessageText.AngelicDeceit.DEATH_PLAYER
     )
 
     val tooltips = mapOf(

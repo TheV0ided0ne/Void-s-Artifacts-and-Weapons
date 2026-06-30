@@ -3,6 +3,7 @@ package vee.vaaw.effect.type
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.effect.StatusEffect
 import net.minecraft.entity.effect.StatusEffectCategory
+import net.minecraft.entity.effect.StatusEffectInstance
 
 object AngelicInjectionEffect : StatusEffect(
     StatusEffectCategory.BENEFICIAL,
@@ -12,13 +13,9 @@ object AngelicInjectionEffect : StatusEffect(
     override fun applyUpdateEffect(entity: LivingEntity, amplifier: Int) {
         if (entity.world.isClient) return
 
-        if (entity.hasStatusEffect(VoidTouchedEffect)) {
-            entity.removeStatusEffect(VoidTouchedEffect)
-        }
-
-        if (entity.hasStatusEffect(BleedEffect)) {
-            entity.removeStatusEffect(BleedEffect)
-        }
+        entity.statusEffects
+            .filter { it.effectType.category == StatusEffectCategory.HARMFUL }
+            .forEach { entity.removeStatusEffect(it.effectType) }
 
         entity.heal(3f)
     }

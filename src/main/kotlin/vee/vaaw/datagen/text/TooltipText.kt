@@ -1,4 +1,4 @@
-package vee.vaaw.util.text
+package vee.vaaw.datagen.text
 
 object TooltipText {
 

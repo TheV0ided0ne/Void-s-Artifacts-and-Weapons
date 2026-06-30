@@ -23,7 +23,7 @@ class DamageTypeProvider(
 
     val voidTouchedDamage: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "void_touched"))
     val bleedDamage: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "bleed"))
-    val angelicDeceitDamage: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "deceit"))
+    val angelicDeceitDamage: RegistryKey<DamageType> = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier("vaaw", "angelic_deceit"))
 
     override fun configure(registries: RegistryWrapper.WrapperLookup, entries: Entries) {
         entries.add(voidTouchedDamage,
@@ -35,7 +35,7 @@ class DamageTypeProvider(
         )
 
         entries.add(angelicDeceitDamage,
-            DamageType("deceit", DamageScaling.NEVER, 0.0f, DamageEffects.THORNS)
+            DamageType("angelic_deceit", DamageScaling.NEVER, 0.0f, DamageEffects.THORNS)
         )
 
     }
