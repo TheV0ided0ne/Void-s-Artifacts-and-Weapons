@@ -1,7 +1,7 @@
 {
   "replace": false,
   "skill": "strength",
-  "level": 16,
+  "level": 19,
   "item": "minecraft:custom_item",
   "object": "vaaw:powered_oceanscale_blade"
 }
